@@ -5,23 +5,135 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/main_background_color"
     tools:context=".MainActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Marco settembre"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="305dp" />
+        android:text="QuizBit"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="80dp"
+        android:layout_height="94dp"
+        app:srcCompat="@drawable/btn2"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <Button
+        android:id="@+id/single_player_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Single Player"
+        android:backgroundTint="@color/lime"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="90dp"
+        android:layout_height="94dp"
+        app:srcCompat="@drawable/btn3"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lime"
+        android:text="Multiplayer"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz categories"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Science"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coding"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Geography"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Art"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movies &amp; shows"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="General knowledge"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="560dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
