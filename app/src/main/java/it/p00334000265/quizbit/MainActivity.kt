@@ -35,39 +35,37 @@ class MainActivity : AppCompatActivity() {
         val art = findViewById<CheckBox>(R.id.artCheckBox)
         val shows = findViewById<CheckBox>(R.id.showsCheckBox)
         val general = findViewById<CheckBox>(R.id.generalCheckBox)
-        science.setOnCheckedChangeListener{
-            val c =File("science.txt").useLines { it.toList() }
+        science.setOnCheckedChangeListener{ buttonView, isChecked ->
+            val c = File("science.txt").useLines { it.toList() }
             questionList.add(c)
         }
-        coding.setOnCheckedChangeListener{
-            val c =File("coding.txt").useLines { it.toList() }
+        coding.setOnCheckedChangeListener{ buttonView, isChecked ->
+            val c = File("coding.txt").useLines { it.toList() }
             questionList.add(c)
         }
-        geography.setOnCheckedChangeListener{
-            val c =File("geography.txt").useLines { it.toList() }
-            questionList.add(c);
-        }
-        history.setOnCheckedChangeListener{
-            val c =File("history.txt").useLines { it.toList() }
+        geography.setOnCheckedChangeListener{ buttonView, isChecked ->
+            val c = File("geography.txt").useLines { it.toList() }
             questionList.add(c)
         }
-        music.setOnCheckedChangeListener{
-            val c =File("music.txt").useLines { it.toList() }
+        history.setOnCheckedChangeListener{ buttonView, isChecked ->
+            val c = File("history.txt").useLines { it.toList() }
             questionList.add(c)
         }
-        art.setOnCheckedChangeListener{
-            val c =File("art.txt").useLines { it.toList() }
+        music.setOnCheckedChangeListener{ buttonView, isChecked ->
+            val c = File("music.txt").useLines { it.toList() }
             questionList.add(c)
         }
-        shows.setOnCheckedChangeListener{
-            val c =File("shows.txt").useLines { it.toList() }
+        art.setOnCheckedChangeListener{ buttonView, isChecked ->
+            val c = File("art.txt").useLines { it.toList() }
             questionList.add(c)
         }
-        general.setOnCheckedChangeListener{
-            val c =openFileInput("general.txt").bufferedReader().useLines { it.toList() }
+        shows.setOnCheckedChangeListener{ buttonView, isChecked ->
+            val c = File("shows.txt").useLines { it.toList() }
             questionList.add(c)
         }
-        fun readFile(fileName: String): List<String>
-                = File(fileName).readLines()
+        general.setOnCheckedChangeListener{ buttonView, isChecked ->
+            val c = File("general.txt").useLines { it.toList() }
+            questionList.add(c)
+        }
     }
 }
