@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         }
         geography.setOnCheckedChangeListener{
             val c =File("geography.txt").useLines { it.toList() }
-            questionList.add(c)
+            questionList.add(c);
         }
         history.setOnCheckedChangeListener{
             val c =File("history.txt").useLines { it.toList() }
