@@ -1,0 +1,10 @@
+What does GUI stand for?0Global Unified Infrastructure,1Graphical User Interface,0General Usage Interface,0Generic User Integration
+What programming language is named after a type of Indonesian coffee?1Java,0Python,0Kotlin,0SQL
+Which of the following programming languages is NOT C-like?0C#,0Java,1Python,0Kotlin
+What does IDE stand for?0Interactive Data Engine,1Integrated Development Environment,0Internal Device Emulator,0Intelligent Design Executor
+What date does UNIX time start at?0January 1st 1980,1January 1st 1970,0December 31st 1968,0December 31st 1980
+Which of the following is a RISC processor?0Intel core i9,0Coldfire,0Zilog Z80,1ARM
+What does HTML stand for?0HyperText Marketing Language,1HypeText Markup Language,0HyperTrainer Marking Language,0HyperText Markup Leveler
+Which of the following programming languages does NOT have classes?0C++,0Kotlin,1C,0Python
+What is the character used for 'new line'?1/n,0/t,0/l,0/nl
+What year was Kotlin released?02015,12016,02017,02018

@@ -1,0 +1,12 @@
+In Back to the Future, what is the time machine made from?1DeLorean,0Toyota Corolla,0Ford Fiesta,0Porsche 959
+Which film directed by Christopher Nolan deals with time travel and black holes in order to save humanity?0Inception,0The Prestige,0Dunkirk,1Interstellar
+In Everything Everywhere All at Once, what unique item does the main character use to access different versions of herself in alternate realities?0Cellphone,0Eyeglasses,0Portal gun,1Hotdog finger
+In Breaking Bad, what is the street name for the drug that Walter White manufactures?0Crystal Clear,0Red Death,1Blue Sky,0Sky High
+In Rick and Morty, who is Beth’s husband?0Morty,1Jerry,0Summer,0Rick
+Who played the role of Marty McFly in Back to the Future?0Leonardo DiCaprio,0Tom Hanks,0Johnny Depp,1Michael J. Fox
+Which actor played the role of Cooper, the pilot who embarks on a mission to save humanity in Interstellar?0Matt Damon,0Leonardo DiCaprio,1Matthew McConaughey,0Christian Bale
+Which of the following characters from Breaking Bad is Walter White’s primary partner in crime?0Saul Goodman,0Hank Schrader,1Jesse Pinkman,0Gus Fring
+In Everything Everywhere All at Once, what is the main character, Evelyn’s, occupation?1Laundromat owner,0Teacher,0Lawyer,0Physicist
+What is Rick’s relationship to Morty in Rick and Morty?0Father and son,0Uncle and nephew,1Grandfather and grandson,0Mentor and apprentice
+
+
