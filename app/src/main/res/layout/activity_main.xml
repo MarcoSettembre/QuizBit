@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -7,51 +7,41 @@
     android:layout_height="match_parent"
     android:background="@drawable/main_background_color"
     tools:context=".MainActivity">
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="QuizBit"
         android:textColor="@color/white"
+        android:gravity="center"
         android:textSize="50dp"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="16dp" />
-
+        android:textStyle="bold"/>
+<TableRow>
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="80dp"
+        android:layout_width="205dp"
         android:layout_height="94dp"
-        app:srcCompat="@drawable/btn2"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="99dp" />
-
+        app:srcCompat="@drawable/btn2"/>
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="205dp"
+        android:layout_height="94dp"
+        app:srcCompat="@drawable/btn3"/>
+</TableRow>
+<TableRow>
     <Button
         android:id="@+id/single_player_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Single Player"
-        android:backgroundTint="@color/lime"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="205dp" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="90dp"
-        android:layout_height="94dp"
-        app:srcCompat="@drawable/btn3"
-        tools:layout_editor_absoluteX="254dp"
-        tools:layout_editor_absoluteY="99dp" />
-
+        android:backgroundTint="@color/lime"/>
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/lime"
-        android:text="Multiplayer"
-        tools:layout_editor_absoluteX="240dp"
-        tools:layout_editor_absoluteY="205dp" />
-
+        android:text="Multiplayer"/>
+</TableRow>
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -60,80 +50,69 @@
         android:textColor="@color/white"
         android:textStyle="bold"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="262dp" />
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/single_player_button" />
+<TableRow>
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/scienceCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Science"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="320dp" />
+        android:textColor="@color/white" />
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/codingCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Coding"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="400dp" />
+        android:textColor="@color/white" />
+</TableRow>
 
+<TableRow>
     <CheckBox
-        android:id="@+id/checkBox3"
+        android:id="@+id/geographyCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Geography"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="480dp" />
+        android:textColor="@color/white" />
 
     <CheckBox
-        android:id="@+id/checkBox4"
+        android:id="@+id/historyCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="History"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="560dp" />
+        android:textColor="@color/white" />
+</TableRow>
 
+<TableRow>
     <CheckBox
-        android:id="@+id/checkBox5"
+        android:id="@+id/musicCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Music"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="215dp"
-        tools:layout_editor_absoluteY="320dp" />
+        android:textColor="@color/white" />
 
     <CheckBox
-        android:id="@+id/checkBox6"
+        android:id="@+id/artCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Art"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="215dp"
-        tools:layout_editor_absoluteY="400dp" />
+        android:textColor="@color/white" />
+</TableRow>
 
+<TableRow>
     <CheckBox
-        android:id="@+id/checkBox7"
+        android:id="@+id/showsCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Movies &amp; shows"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="215dp"
-        tools:layout_editor_absoluteY="480dp" />
+        android:textColor="@color/white" />
 
     <CheckBox
-        android:id="@+id/checkBox8"
+        android:id="@+id/generalCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="General knowledge"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="215dp"
-        tools:layout_editor_absoluteY="560dp" />
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:textColor="@color/white" />
+</TableRow>
+</TableLayout>
