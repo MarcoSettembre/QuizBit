@@ -219,7 +219,7 @@
                         android:layout_width="33dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
-                        app:srcCompat="@drawable/Science" />
+                        app:srcCompat="@drawable/science" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -251,7 +251,7 @@
                         android:layout_width="28dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
-                        app:srcCompat="@drawable/Coding" />
+                        app:srcCompat="@drawable/coding" />
 
                     <TextView
                         android:layout_width="wrap_content"
