@@ -293,7 +293,7 @@
                         android:layout_width="28dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
-                        app:srcCompat="@drawable/Geography" />
+                        app:srcCompat="@drawable/geography" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -325,7 +325,7 @@
                         android:layout_width="30dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
-                        app:srcCompat="@drawable/History" />
+                        app:srcCompat="@drawable/history" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -366,7 +366,7 @@
                         android:layout_width="32dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
-                        app:srcCompat="@drawable/Music" />
+                        app:srcCompat="@drawable/music" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -398,7 +398,7 @@
                         android:layout_width="40dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
-                        app:srcCompat="@drawable/Art" />
+                        app:srcCompat="@drawable/art" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -439,7 +439,7 @@
                         android:layout_width="32dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
-                        app:srcCompat="@drawable/Shows" />
+                        app:srcCompat="@drawable/shows" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -471,7 +471,7 @@
                         android:layout_width="32dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
-                        app:srcCompat="@drawable/General" />
+                        app:srcCompat="@drawable/general" />
 
                     <TextView
                         android:layout_width="wrap_content"
