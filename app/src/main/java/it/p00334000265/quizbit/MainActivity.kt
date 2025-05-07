@@ -8,9 +8,12 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import android.content.Intent
 import android.widget.CheckBox
+import android.widget.ImageView
 import java.io.File
 
 import it.p00334000265.quizbit.QuizBit.Companion.questionList
+import it.p00334000265.quizbit.QuizBit.Companion.coins
+import it.p00334000265.quizbit.QuizBit.Companion.name
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +25,7 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val singlePlayerButton = findViewById<Button>(R.id.single_player_button)
+        val singlePlayerButton = findViewById<ImageView>(R.id.single_player_button)
         singlePlayerButton.setOnClickListener{
             val intent = Intent(this, QuestionActivity::class.java)
             startActivity(intent)
