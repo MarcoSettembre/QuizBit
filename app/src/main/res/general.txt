@@ -1,0 +1,11 @@
+Who wrote the famous play Romeo and Juliet?0Charles Dickens,1William Shakespeare,0Mark Twain,0Oscar Wilde
+What is the largest animal on Earth?0Elephant,1Blue Whale,0Giraffe,0Great White Shark
+In which country did the game of chess originate?0China,0Greece,0Italy,1India
+Who was the first man to step on the Moon?0Buzz Aldrin,0Michael Collins,1Neil Armstrong,0Yuri Gagarin
+Who invented the telephone?1Alexander Graham Bell,0Thomas Edison,0Nikola Tesla,0Benjamin Franklin
+What year did the Titanic sink?01902,11912,01920,01898
+What is the main ingredient in traditional Japanese miso soup?0Soy Sauce,0Seaweed,1Miso paste,0Miso cream
+Which planet is known as the "Red Planet"?0Venus,0Jupiter,0Saturn,1Mars
+Who was the first woman to win a Nobel Prize?0Mother Teresa,1Marie Curie,0Helen Keller,0Rosalind Franklin
+What is the currency of the United Kingdom?0Euro,1Pound,0Dollar,0Krona
+

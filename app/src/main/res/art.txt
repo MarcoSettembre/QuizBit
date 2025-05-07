@@ -1,0 +1,50 @@
+Who painted the "Mona Lisa"?0Pablo Picasso,0Vincent van Gogh,0Michelangelo,1Leonardo da Vinci
+Which famous artist is known for his style of abstract expressionism?0Andy Warhol,1Jackson Pollock,0Mark Rothko,0laude Monet
+What is the name of the painting by Edvard Munch that depicts a figure with an agonized expression?0The Persistence of Memory,1The Scream,0The Kiss,0Girl with a Pearl Earring
+Who painted the ceiling of the Sistine Chapel in Vatican City?0Raphael,1Michelangelo,0Leonardo da Vinci,0Caravaggio
+Which artist is famous for his work "The Starry Night"?1Vincent van Gogh,0Paul Cezanne,0Pablo Picasso,0Henri Matisse
+What was the art movement that Pablo Picasso co-founded?0Surrealism,0Expressionism,1Cubism,0Futurism
+Which artist is famous for creating the sculpture "David"?0Raphael,1Michelangelo,0Donatello,0Leonardo da Vinci
+Who painted "The Birth of Venus"?0Titian,0Caravaggio,0Raphael,1Botticelli
+The "Guernica" painting by Pablo Picasso depicts the horrors of which event?0The French Revolution,1The Spanish Civil War,0World War I,0The American Civil War
+What is the term for an artwork that is made up of various materials such as newspapers, fabric, and photographs?1Collage,0Mosaic,0Fresco,0Assemblage
+What is the term for a sculpture made by carving or chiseling?0Additive,1Subtractive,0Kinetic,0Assemblage
+What technique did Georges Seurat use, creating pictures from small dots of color?0Cubism,1Pointillism,0Expressionism,0Graffiti
+What kind of paint is water-based and dries quickly?0Oil,1Acrylic,0Tempera,0Encaustic
+Which art movement focused on light and everyday scenes, and included artists like Monet and Renoir?1Impressionism,0Realism,0Dadaism,0Surrealism
+What is the term for the arrangement of elements in an artwork?0Texture,0Form,1Composition,0Tone
+Pablo Picasso is famous for co-founding which movement?0Abstract Expressionism,0Futurism,0Bauhaus,1Cubism
+Which artist is Known for their "Campbell's Soup Cans" series?0Roy Lichtenstein,0Jean-Michel Basquiat,1Andy Warhol,0Jasper Johns
+Which medium is primarily used in drawing?1Graphite,0Clay,0Oil paint,0Plaster
+What is a self-portrait?0A painting of animals,0A painting of someone else,1A painting of the artist by the artist,0A painting of objects
+What element of art refers to the lightness or darkness of a color?0Shade,0Hue,1Value,0Tone
+What tool is typically used to blend pencil shading?0Palette knife,0Ruler,1Tortillon (blending stump),0Brush
+Which country is the origin of origami?0China,1Japan,0Korea,0Thailand
+What does "medium" mean in art?0The size of the canvas,0The subject of the artwork,0The temperature of the paint,1The material used to create the artwork
+Which artist is known for the ceiling of the Sistine Chapel?0Raphael,1Michelangelo,0Botticelli,0Caravaggio
+What is the name of the ancient Egyptian writing system that used symbols?1Hieroglyphics,0Calligraphy,0Cuneiform,0Alphabet
+What does "abstract art" focus on?0Photographic accuracy,0Religious stories,0Representing reality,1Shapes, colors, and forms without realism
+What is a "mosaic"?0A large canvas painting,0A sculpture made of glass,1An image made of small pieces of tile or glass,0A charcoal drawing
+Which of the following is considered a warm color?1Yellow,0Blue,0Violet,0Red
+What is "chiaroscuro"?0A style of sculpture,1The use of strong contrasts between light and dark,0A technique for drawing with ink,0A type of art movement
+What is a primary characteristic of Pop Art?0Use of ancient techniques,0Emphasis on nature,1Inspiration from popular culture and mass media,0Focus on classical beauty
+Who painted "The Scream"?0Gustav Klimt,1Edvard Munch,0Paul Gauguin,0Georges Braque
+What does the term "perspective" refer to in art?0Using only primary colors,0Creating balance in a composition,0Drawing things in a flat style,1Representing depth and three-dimensional space
+What is the name of the color technique that gradually transitions from light to dark?0Mosaic,1Gradient,0Wash,0Contrast
+What material is typically used for sculpting in the subtractive method?1Marble,0Clay,0Fabric,0Paper
+Which artist is famous for melting clocks in his painting "The Persistence of Memory"?0René Magritte,0Pablo Picasso,1Salvador Dalì,0Jackson Pollock
+What do we call the repeated use of elements such as lines or shapes in a design?1Pattern,0Emphasis,0Contrast,0Harmony
+What is the term for a color made by mixing a primary and a secondary color?0Complementary color,0Neutral color,1Tertiary color,0Opposite color
+What is a "triptych"?0A three-color palette,1A three-paneled artwork,0A sculpture with three angles,0A mural with three themes
+In which museum is the Mona Lisa displayed?0The British Museum,0The Prado,1The Louvre,0The Uffizi Gallery
+Which principle of art refers to the sense of equilibrium in a composition?1Balance,0Rhythm,0Variety,0Movement
+What is "encaustic painting"?0Painting with oil pastels,1Painting with wax,0Painting on wood with gouache,0Painting using spray
+Which movement is associated with spontaneous and expressive brushstrokes, often on large canvases?0Baroque,0Minimalism,1Abstract Expressionism,0Neo-Classicism
+What is the function of a palette in painting?0To clean brushes,0To frame the artwork,0To apply varnish,1To mix and hold paints
+What do you call an artwork made by assembling different materials like paper, fabric, and photos?0Fresco,1Collage,0Mosaic,0Engraving
+Which color scheme uses colors that are opposite each other on the color wheel?1Complementary,0Analogous,0Monochromatic,0Warm
+What is the purpose of "contour drawing"?0To shade with realism,0To sketch using only dots,0To blend colors smoothly,1To outline the shapes and edges of a subject
+What is the main characteristic of Minimalist art?1Simplicity and focus on form,0Use of classical subjects,0Emotional intensity,0Bright, detailed compositions
+Who painted "Girl with a Pearl Earring"?1Johannes Vermeer,0Rembrandt,0Jan van Eyck,0Caravaggio
+What element of art refers to the surface quality, either actual or implied?0Line,0Form,1Texture,0Shape
+Which ancient civilization is known for its red and black pottery?0Egyptian,0Mayan,1Greek,0Roman

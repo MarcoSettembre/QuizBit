@@ -1,0 +1,10 @@
+What is the largest planet in our solar system?0Saturn,0Mercury,0Earth,1Jupiter
+How many elements are on the periodic table?0119,1118,0120,0122
+What do you call molten rock before it has erupted?1Magma,0Lava,0Silicate,0Mineral
+When was the first Nobel prize awarded?11901,01900,01902,01899
+What element are diamonds made of?0Iron,0Calcium,0Silicon,1Carbon
+What color is the sunset on Mars?1Blue,0Yellow,0Green,0Red
+How long is a galactic year?0200 million years,1230 million years,0180 million years,0250 million years
+What planet is closest in size to Earth?0Mercury,0Mars,1Venus,0Moon
+What is the pH of water?06,08,17,02
+What is the largest organ in the human body?0Heart,0Liver,0Brain,1Skin

@@ -1,0 +1,10 @@
+What year did WW2 start?01940,11939,01938,01941
+What was the largest empire in history?0Spanish Empire,0Mongol Empire,0Roman Empire,1British Empire
+What year was Italy unified?11861,01860,01870,01902
+What was the name of the last USSR leader?1Gorbachev,0Petrovsky,0Ivanenko,0Chernov
+What year was Rome founded?0509 BCE,0800 BCE,1753BCE,0690 BCE
+What was the capital of the Inca Empire?0Quito,1Cusco,0Machu Picchu,0Tiahuanaco
+What was the name of the international group formed to maintain world peace after WWI?1League of Nations,0United Nations,0United Global Council,0World Security Alliance
+Who fought in the Hundred Years War?0England and the Netherlands,1England and France,0Spain and Portugal,0France and Prussia
+Brexit refers to which country leaving the European Union?0Belgium,0Switzerland,0Ireland,1United Kingdom
+What was the first country to recognize the USA?1Morocco,0France,0Spain,0England
