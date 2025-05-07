@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import it.p00334000265.quizbit.QuizBit.Companion.questionList
+import it.p00334000265.quizbit.QuizBit.Companion.coins
+import it.p00334000265.quizbit.QuizBit.Companion.name
 
 class QuestionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
