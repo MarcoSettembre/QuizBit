@@ -10,6 +10,7 @@ import android.content.Intent
 import android.widget.CheckBox
 import android.widget.ImageView
 import java.io.File
+import android.widget.TextView
 
 import it.p00334000265.quizbit.QuizBit.Companion.questionList
 import it.p00334000265.quizbit.QuizBit.Companion.coins
@@ -25,10 +26,19 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val singlePlayerButton = findViewById<ImageView>(R.id.single_player_button)
+        val singlePlayerButton = findViewById<Button>(R.id.single_player_button)
+        val editNameButton = findViewById<Button>(R.id.edit_name_button)
+        val nameView = findViewById<TextView>(R.id.textView2)
+        val coinView = findViewById<TextView>(R.id.textView3)
+        editNameButton.setOnClickListener{
+            val intent = Intent(this, NameActivity::class.java)
+            startActivity(intent)
+            nameView.text = "Hi, " + name
+        }
         singlePlayerButton.setOnClickListener{
             val intent = Intent(this, QuestionActivity::class.java)
             startActivity(intent)
+            coinView.text = coins.toString()
         }
         val science = findViewById<CheckBox>(R.id.scienceCheckBox)
         val coding = findViewById<CheckBox>(R.id.codingCheckBox)

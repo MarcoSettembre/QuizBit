@@ -99,21 +99,18 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/edit_name_button"
                         android:layout_width="match_parent"
                         android:layout_height="62dp"
-                        android:clickable="true"
-                        android:focusable="true"
                         app:srcCompat="@drawable/pencil" />
 
-                    <TextView
-                        android:id="@+id/textView_create1"
+                    <Button
+                        android:id="@+id/edit_name_button"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="24dp"
                         android:text="Edit Name"
-                        android:textAlignment="center"
-                        android:textColor="@color/white" />
+                        android:textColor="@color/white"
+                        android:backgroundTint="@color/navy_blue" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -128,21 +125,18 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/btn2" />
+
+                    <Button
                         android:id="@+id/single_player_button"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:clickable="true"
-                        android:focusable="true"
-                        app:srcCompat="@drawable/btn2" />
-
-                    <TextView
-                        android:id="@+id/textView_create2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
                         android:layout_marginTop="24dp"
-                        android:text="Single Player"
-                        android:textAlignment="center"
-                        android:textColor="@color/white" />
+                        android:backgroundTint="@color/navy_blue"
+                        android:textColor="@color/white"
+                        android:text="Single Player" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -214,28 +208,20 @@
                     android:background="@drawable/navy_background"
                     android:gravity="center"
                     android:orientation="horizontal">
-
+                    <CheckBox
+                        android:id="@+id/scienceCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:text="Science"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
                     <ImageView
                         android:layout_width="33dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         app:srcCompat="@drawable/science" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginEnd="7dp"
-                        android:text="Science"
-                        android:textColor="@color/white"
-                        android:textSize="17sp"
-                        android:textStyle="bold" />
-
-                    <CheckBox
-                        android:id="@+id/scienceCheckBox"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="8dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -246,28 +232,20 @@
                     android:background="@drawable/navy_background"
                     android:gravity="center"
                     android:orientation="horizontal">
-
+                    <CheckBox
+                        android:id="@+id/codingCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:text="Coding"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
                     <ImageView
                         android:layout_width="28dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         app:srcCompat="@drawable/coding" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="16dp"
-                        android:layout_marginEnd="8dp"
-                        android:text="Coding"
-                        android:textColor="@color/white"
-                        android:textSize="17sp"
-                        android:textStyle="bold" />
-
-                    <CheckBox
-                        android:id="@+id/codingCheckBox"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="8dp" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -288,28 +266,20 @@
                     android:background="@drawable/navy_background"
                     android:gravity="center"
                     android:orientation="horizontal">
-
+                    <CheckBox
+                        android:id="@+id/geographyCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:text="Geography"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold"/>
                     <ImageView
                         android:layout_width="28dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         app:srcCompat="@drawable/geography" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginEnd="7dp"
-                        android:text="Geography"
-                        android:textColor="@color/white"
-                        android:textSize="14sp"
-                        android:textStyle="bold" />
-
-                    <CheckBox
-                        android:id="@+id/geographyCheckBox"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="8dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -320,28 +290,20 @@
                     android:background="@drawable/navy_background"
                     android:gravity="center"
                     android:orientation="horizontal">
-
+                    <CheckBox
+                        android:id="@+id/historyCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:text="History"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
                     <ImageView
                         android:layout_width="30dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         app:srcCompat="@drawable/history" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="16dp"
-                        android:layout_marginEnd="8dp"
-                        android:text="History"
-                        android:textColor="@color/white"
-                        android:textSize="17sp"
-                        android:textStyle="bold" />
-
-                    <CheckBox
-                        android:id="@+id/historyCheckBox"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="8dp" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -361,28 +323,20 @@
                     android:background="@drawable/navy_background"
                     android:gravity="center"
                     android:orientation="horizontal">
-
+                    <CheckBox
+                        android:id="@+id/musicCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:text="Music"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
                     <ImageView
                         android:layout_width="32dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         app:srcCompat="@drawable/music" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginEnd="7dp"
-                        android:text="Music"
-                        android:textColor="@color/white"
-                        android:textSize="17sp"
-                        android:textStyle="bold" />
-
-                    <CheckBox
-                        android:id="@+id/musicCheckBox"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="8dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -393,28 +347,20 @@
                     android:background="@drawable/navy_background"
                     android:gravity="center"
                     android:orientation="horizontal">
-
+                    <CheckBox
+                        android:id="@+id/artCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:text="Art"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         app:srcCompat="@drawable/art" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="25dp"
-                        android:layout_marginEnd="25dp"
-                        android:text="Art"
-                        android:textColor="@color/white"
-                        android:textSize="17sp"
-                        android:textStyle="bold" />
-
-                    <CheckBox
-                        android:id="@+id/artCheckBox"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="8dp" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -434,28 +380,20 @@
                     android:background="@drawable/navy_background"
                     android:gravity="center"
                     android:orientation="horizontal">
-
+                    <CheckBox
+                        android:id="@+id/showsCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:text="Shows"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
                     <ImageView
                         android:layout_width="32dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         app:srcCompat="@drawable/shows" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginEnd="7dp"
-                        android:text="Shows"
-                        android:textColor="@color/white"
-                        android:textSize="17sp"
-                        android:textStyle="bold" />
-
-                    <CheckBox
-                        android:id="@+id/showsCheckBox"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="8dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -466,28 +404,20 @@
                     android:background="@drawable/navy_background"
                     android:gravity="center"
                     android:orientation="horizontal">
-
+                    <CheckBox
+                        android:id="@+id/generalCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:text="General"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
                     <ImageView
                         android:layout_width="32dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         app:srcCompat="@drawable/general" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="6dp"
-                        android:layout_marginEnd="8dp"
-                        android:text="General"
-                        android:textColor="@color/white"
-                        android:textSize="17sp"
-                        android:textStyle="bold" />
-
-                    <CheckBox
-                        android:id="@+id/generalCheckBox"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="8dp" />
                 </LinearLayout>
             </LinearLayout>
 
