@@ -36,7 +36,6 @@ class MainActivity : AppCompatActivity() {
         editNameButton.setOnClickListener{
             val intent = Intent(this, NameActivity::class.java)
             startActivity(intent)
-            nameView.text = "Hi, " + name
         }
         singlePlayerButton.setOnClickListener{
             val intent = Intent(this, QuestionActivity::class.java)
@@ -83,5 +82,15 @@ class MainActivity : AppCompatActivity() {
             val c = assets.open("general.txt").bufferedReader().useLines { it.toList() }
             questionList.add(c)
         }
+        super.onResume()
+        nameView.text = name
+        coinView.text = coins.toString()
+    }
+    override fun onResume() {
+        super.onResume()
+        val nameView = findViewById<TextView>(R.id.textView2)
+        val coinView = findViewById<TextView>(R.id.textView3)
+        nameView.text = "Hi, " + name
+        coinView.text = coins.toString()
     }
 }

@@ -7,6 +7,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import android.widget.EditText
 import android.widget.Button
+import android.widget.TextView
 import it.p00334000265.quizbit.QuizBit.Companion.name
 
 class NameActivity : AppCompatActivity() {
