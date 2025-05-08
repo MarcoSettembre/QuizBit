@@ -9,10 +9,7 @@ import androidx.core.view.WindowInsetsCompat
 import android.content.Intent
 import android.widget.CheckBox
 import android.widget.ImageView
-import java.io.File
-import android.widget.Toast
 import android.widget.TextView
-import android.content.Context
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
@@ -34,37 +31,6 @@ class MainActivity : AppCompatActivity() {
         val editNameButton = findViewById<ImageView>(R.id.edit_name_button)
         val nameView = findViewById<TextView>(R.id.textView2)
         val coinView = findViewById<TextView>(R.id.textView3)
-        val selectAll = findViewById<CheckBox>(R.id.selectAllCheckBox)
-
-        val checkBoxList = listOf(
-            findViewById<CheckBox>(R.id.scienceCheckBox),
-            findViewById<CheckBox>(R.id.codingCheckBox),
-            findViewById<CheckBox>(R.id.geographyCheckBox),
-            findViewById<CheckBox>(R.id.historyCheckBox),
-            findViewById<CheckBox>(R.id.musicCheckBox),
-            findViewById<CheckBox>(R.id.artCheckBox),
-            findViewById<CheckBox>(R.id.showsCheckBox),
-            findViewById<CheckBox>(R.id.generalCheckBox)
-        )
-
-        selectAll.setOnCheckedChangeListener { _, isChecked ->
-            checkBoxList.forEach { it.isChecked = isChecked }
-        }
-
-        checkBoxList.forEach { cb ->
-            cb.setOnCheckedChangeListener { _, _ ->
-                selectAll.isChecked = checkBoxList.all { it.isChecked }
-            }
-        }
-
-        singlePlayerButton.setOnClickListener {
-            Toast.makeText(this, "Hai cliccato sull'immagine!", Toast.LENGTH_SHORT).show()
-        }
-
-        editNameButton.setOnClickListener {
-            Toast.makeText(this, "Hai cliccato sull'immagine!", Toast.LENGTH_SHORT).show()
-        }
-        /*
         editNameButton.setOnClickListener{
             val intent = Intent(this, NameActivity::class.java)
             startActivity(intent)
@@ -74,8 +40,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             coinView.text = coins.toString()
         }
-
-         */
         val science = findViewById<CheckBox>(R.id.scienceCheckBox)
         val coding = findViewById<CheckBox>(R.id.codingCheckBox)
         val geography = findViewById<CheckBox>(R.id.geographyCheckBox)
