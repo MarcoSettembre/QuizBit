@@ -1,0 +1,10 @@
+Who painted the "Mona Lisa"?0Pablo Picasso,0Vincent van Gogh,0Michelangelo,1Leonardo da Vinci
+Which famous artist is known for his style of abstract expressionism?0Andy Warhol,1Jackson Pollock,0Mark Rothko,0laude Monet
+What is the name of the painting by Edvard Munch that depicts a figure with an agonized expression?0The Persistence of Memory,1The Scream,0The Kiss,0Girl with a Pearl Earring
+Who painted the ceiling of the Sistine Chapel in Vatican City?0Raphael,1Michelangelo,0Leonardo da Vinci,0Caravaggio
+Which artist is famous for his work "The Starry Night"?1Vincent van Gogh,0Paul Cezanne,0Pablo Picasso,0Henri Matisse
+What was the art movement that Pablo Picasso co-founded?0Surrealism,0Expressionism,1Cubism,0Futurism
+Which artist is famous for creating the sculpture "David"?0Raphael,1Michelangelo,0Donatello,0Leonardo da Vinci
+Who painted "The Birth of Venus"?0Titian,0Caravaggio,0Raphael,1Botticelli
+The "Guernica" painting by Pablo Picasso depicts the horrors of which event?0The French Revolution,1The Spanish Civil War,0World War I,0The American Civil War
+What is the term for an artwork that is made up of various materials such as newspapers, fabric, and photographs?1Collage,0Mosaic,0Fresco,0Assemblage

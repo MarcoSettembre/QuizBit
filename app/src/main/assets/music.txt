@@ -1,0 +1,11 @@
+Who is known as the "King of Pop"?1Michael Jackson,0Elvis Presley,0Prince,0 James Brown
+Which band wrote and performed "Bohemian Rhapsody"?0The Rolling Stones,0The Beatles,0Pink Floyd,1Queen
+What year did The Beatles release their album "Sgt. Pepper's Lonely Hearts Club Band"?01965,11967,01970,01963
+What is the best-selling album of all time?0The Eagles - "Hotel California",0Pink Floyd - "The Dark Side of the Moon",1Michael Jackson - "Thriller",0ABBA - "Arrival"
+Which song did Whitney Houston famously cover in 1992, which became one of her biggest hits?1I Will Always Love You,0I Have Nothing,0Run to You,0Greatest Love of All
+Who was the first woman inducted into the Rock and Roll Hall of Fame?0Madonna,0Tina Turner,0Janis Joplin,1Aretha Franklin
+What genre of music is Bob Marley most associated with?0Ska,0Blues,1Reggae,0Rock
+Which artist famously wore a meat dress at the 2010 MTV Video Music Awards?0Rihanna,1Lady Gaga,0Beyonce,0Katy Perry
+In which city was the famous music festival Woodstock held in 1969?0Los Angeles,1New York,0Chicago,0San Francisco
+Who composed the famous piece "The Four Seasons"?0Bach,1Vivaldi,0Mozart,0Beethoven
+
