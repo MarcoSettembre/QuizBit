@@ -62,20 +62,12 @@ class MainActivity : AppCompatActivity() {
         }
         nameView.text = "Hi, $name"
         coinView.text = coins.toString()
-
-    /*
-    editNameButton.setOnClickListener{
-        val intent = Intent(this, NameActivity::class.java)
-        startActivity(intent)
-    }
-     */
-
         singlePlayerButton.setOnClickListener{
             val intent = Intent(this, QuestionActivity::class.java)
             startActivity(intent)
             coinView.text = coins.toString()
         }
-        val seeAllCheckBox = findViewById<CheckBox>(R.id.see_allCheckBox)
+        val checkAllCheckBox = findViewById<CheckBox>(R.id.check_allCheckBox)
         val science = findViewById<CheckBox>(R.id.scienceCheckBox)
         val coding = findViewById<CheckBox>(R.id.codingCheckBox)
         val geography = findViewById<CheckBox>(R.id.geographyCheckBox)
@@ -86,7 +78,7 @@ class MainActivity : AppCompatActivity() {
         val general = findViewById<CheckBox>(R.id.generalCheckBox)
         val allCheckBoxes = listOf(science, coding, geography, history, music, art, shows, general)
 
-        seeAllCheckBox.setOnCheckedChangeListener { _, isChecked ->
+        checkAllCheckBox.setOnCheckedChangeListener { _, isChecked ->
             allCheckBoxes.forEach { it.isChecked = isChecked }
         }
 
@@ -123,9 +115,6 @@ class MainActivity : AppCompatActivity() {
             val c = assets.open("general.txt").bufferedReader().useLines { it.toList() }
             questionList.add(c)
         }
-        super.onResume()
-        nameView.text = name
-        coinView.text = coins.toString()
     }
     override fun onResume() {
         super.onResume()
