@@ -8,3 +8,43 @@ What does HTML stand for?0HyperText Marketing Language,1HypeText Markup Language
 Which of the following programming languages does NOT have classes?0C++,0Kotlin,1C,0Python
 What is the character used for 'new line'?1/n,0/t,0/l,0/nl
 What year was Kotlin released?02015,12016,02017,02018
+Which of these is a backend language?0CSS,0HTML,0JavaScript,1PHP
+What is Git used for?0Designing websites,0Writing documents,1Tracking changes in code,0Running servers
+What does API stand for?0Automated Program Index,1Application Programming Interface,0Advanced Program Input,0Anonymous Process Interface
+What is the purpose of the "if" statement?0Loop through lists,0Perform calculations,1Make decisions in code,0Save files
+What does IDE stand for?1Integrated Development Environment,0Internet Data Editor,0Intelligent Debugging Engine,0Input Device Emulator
+Which symbol is used for equality comparison in most languages?0=,1==,0:=,0===
+What does JavaScript mainly do in web development?0Styles pages,0Stores data,1Adds interactivity,0Compiles HTML
+Which is a version control system?1GitHub,0MySQL,0VS Code,0Node.js
+What is an array?0A text editor,0A loop function,1A collection of values,0A database
+Which of these is a JavaScript data type?0Line,0Table,1Boolean,0Window
+What is the correct way to declare a function in JavaScript?1function myFunction(){},0func myFunction(){},0define myFunction(){},0method myFunction(){}
+Which of the following is a frontend framework?0Laravel,1React,0Flask,0Django
+What does SQL stand for?0Server Query Long,1Structured Query Language,0Software Question Logic,0Simple Query Listing
+Which command is used to initialize a Git repository?1git init,0git start,0git create,0git new
+In Python, what does the "len()" function do?0Converts numbers to strings,1Returns the length of a string or list,0Deletes variables,0Creates a list
+Which file extension is typically used for JavaScript files?1.js,0.java,0.jsx,0.script
+Which symbol is used to denote a class in Python?0class{},1class:,0def class(),0class()
+What is the result of 3 + "3" in JavaScript?06,133,0Error,0Undefined
+Which of the following is a valid CSS property?1font-style,0text-code,0div-size,0layout-box
+What is the main purpose of a database?0Render web pages,0Animate graphics,1Store and organize data,0Manage code versions
+Which operator is used for logical AND in most programming languages?0&,0||,1&&,0<>
+In coding, what is "debugging"?0Writing new code,0Encrypting files,1Fixing errors in code,0Formatting data
+Which HTML tag is used to display an image?1<img>,0<picture>,0<src>,0<media>
+What does the "return" keyword do in a function?0Stops the program,0Prints to the console,0Exits the browser,1Sends a value back from the function
+What is a "loop" useful for?1Repeating a block of code,0Writing CSS,0Storing HTML,0Deleting variables
+Which of the following is a commonly used NoSQL database?0MySQL,1MongoDB,0PostgreSQL,0SQLite
+In HTML, what does the <ul> tag represent?0Upload list,0Underlined list,1Unordered list,0Unique layout
+What is the correct way to write a comment in HTML?0//comment,1<!--comment-->,0/*comment*/,0#comment
+Which language is best known for statistical analysis and data science?0Java,1R,0HTML,0Swift
+What is a "bug" in programming?0A software update,0A program setting,1A mistake or error in the code,0A command
+Which symbol is used to define a string in most programming languages?0(),0{},1"",0<>
+What does the command print() do in Python?0Adds a comment,0Declares a variable,0Imports a library,1Outputs text to the screen
+Which data type is used to store whole numbers?0String,0Float,0Boolean,1Integer
+What is the default file extension for a Python file?0.pt,1.py,0.pyt,0.python
+Which of the following is not a programming language?1HTML,0Python,0Java,0Scratch
+What is an IDE primarily used for?0Creating graphics,1Writing and testing code,0Browsing the internet,0Encrypting passwords
+Which of the following is used for styling web pages?0HTML,0Python,0JavaScript,1CSS
+What does the keyword def do in Python?1Defines a function,0Deletes a variable,0Defines a class,0Returns a value
+What is indentation used for in Python?0To create loops,0To run commands,0To make comments,1To define blocks of code
+Which of these is used to repeat a task while a condition is true?1while loop,0def loop,0try loop,0print loop
