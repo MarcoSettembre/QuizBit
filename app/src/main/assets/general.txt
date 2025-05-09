@@ -8,4 +8,44 @@ What is the main ingredient in traditional Japanese miso soup?0Soy Sauce,0Seawee
 Which planet is known as the "Red Planet"?0Venus,0Jupiter,0Saturn,1Mars
 Who was the first woman to win a Nobel Prize?0Mother Teresa,1Marie Curie,0Helen Keller,0Rosalind Franklin
 What is the currency of the United Kingdom?0Euro,1Pound,0Dollar,0Krona
+What is the capital city of Canada?0Toronto,0Vancouver,1Ottawa,0Montreal
+Who wrote "Romeo and Juliet"?0Charles Dickens,1William Shakespeare,0Jane Austen,0Mark Twain
+Which planet is known as the Red Planet?0Venus,1Mars,0Saturn,0Jupiter
+What is the largest ocean on Earth?0Atlantic,0Indian,0Arctic,1Pacific
+Who painted the "Last Supper"?0Michelangelo,0Raphael,1Da Vinci,0Caravaggio
+Who many continents are there?05,17,06,08
+What is the chemical symbol for gold?0Gd,0Go,1Au,0Ag
+Which country invented pizza?0Greece,1Italy,0France,0Spain
+What is the longest river in the world?0Amazon,1Nile,0Yangtze,0Mississippi
+In which year did the Titanic sink?01910,11912,01920,01915
+Who discovered gravity after watching an apple fall?1Isaac Newron,0Albert Einstein,0Galileo Galilei,0Nikola Tesla
+What is the hardest natural substance on Earth?0Gold,0Iron,1Diamond,0Quartz
+Which country is known as the Land of the Rising Sun?0Korea,0China,0Thailand,1Japan
+What language has the most native speakers worldwide?0English,1Mandarin Chinese,0Spanish,0Arabic
+What is the smallest prime number?01,12,03,05
+Who is the Greek god of the sea?0Zeus,0Hades,1Poseidon,0Apollo
+What is the main ingredient in guacamole?0Tomato,0Onion,0Pepper,1Avocado
+How many players are there in a football (soccer) team on the field?010,111,012,09
+Who wrote "The Odyssey"?1Homer,0Virgil,0Plato,0Sophocles
+What is the square root of 144?010,011,112,013
+Which country hosted the 2016 Summer Olympics?0China,1Brazil,0Greece,0Japan
+Who painted the ceiling of the Sistine Chapel?0Leonardo Da Vinci,1Michelangelo,0Raphael,0Botticelli
+What is the tallest mountain in the world?0K2,1Mount Everest,0Kilimanjaro,0Denali
+How many teeth does an adult human usually have?132,030,028,036
+Which gas do plants absorb from the atmosphere?0Oxygen,0Hydrogen,1Carbon Dioxide,0Nitrogen
+What is the currency of Japan?0Yuan,0Won,0Ringgit,1Yen
+Who invented the telephone?0Thomas Edison,1Alexander Graham Bell,0Nikola Tesla,0Guglielmo Marconi
+What is the boiling point of water in Celsius?050°C,090°C,1100°C,0212°C
+What country has a maple leaf on its flag?0Australia,1Canada,0Norway,0New Zealand
+What is the longest bone in the human body?0Tibia,0Spine,0Humerus,1Femur
+In which continent is the Sahara Desert located?1Africa,0Asia,0Australia,0South America
+What is the name of the fairy in "Peter Pan"?1Tinker Bell,0Fairy Godmother,0Belle,0Sparkle
+How many planets are in the Solar System?07,18,09,010
+What is the largest animal on Earth?0African elephant,0Giraffe,0Great white shark,1Blue whale
+What is the capital of France?0Rome,0Madrid,0Berlin,1Paris
+Who was the first man on the moon?1Neil Armstrong,0Buzz Aldrin,0Yuri Gagarin,0Alan Shepard
+Which instrument has black and white keys?0Guitar,0Flute,1Piano,0Violin
+What is the largest country in the world by area?0Canada,0China,0United States,1Russia
+What is the chemical formula for water?0CO2,1H2O,0O2,0H2SO4
+What color do you get when you mix red and blue?0Green,0Orange,0Brown,1Purple
 
