@@ -175,7 +175,6 @@
                 android:orientation="horizontal"
                 android:gravity="center_vertical">
 
-                <!-- Testo principale "Quiz Categories" -->
                 <TextView
                     android:id="@+id/textView_quiz_categories"
                     android:layout_width="0dp"

@@ -46,8 +46,8 @@ class MainActivity : AppCompatActivity() {
                 .setPositiveButton("Save") { dialog, _ ->
                     val newName = input.text.toString()
                     if (newName.isNotEmpty()) {
-                        name = newName // Aggiorna il nome globale
-                        nameView.text = "Hi, $name" // Aggiorna il TextView
+                        name = newName
+                        nameView.text = "Hi, $name"
                     }
                     dialog.dismiss()
                 }
