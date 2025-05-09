@@ -12,6 +12,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import java.io.BufferedReader
 import java.io.InputStreamReader
+import android.app.AlertDialog
+import android.widget.EditText
 
 import it.p00334000265.quizbit.QuizBit.Companion.questionList
 import it.p00334000265.quizbit.QuizBit.Companion.coins
@@ -27,19 +29,53 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
         val singlePlayerButton = findViewById<ImageView>(R.id.single_player_button)
         val editNameButton = findViewById<ImageView>(R.id.edit_name_button)
         val nameView = findViewById<TextView>(R.id.textView2)
         val coinView = findViewById<TextView>(R.id.textView3)
-        editNameButton.setOnClickListener{
-            val intent = Intent(this, NameActivity::class.java)
-            startActivity(intent)
+
+        editNameButton.setOnClickListener {
+            val input = EditText(this)
+            input.hint = "Enter your name"
+
+            AlertDialog.Builder(this)
+                .setTitle("Edit Name")
+                .setMessage("Enter your new name:")
+                .setView(input)
+                .setPositiveButton("Save") { dialog, _ ->
+                    val newName = input.text.toString()
+                    if (newName.isNotEmpty()) {
+                        name = newName // Aggiorna il nome globale
+                        nameView.text = "Hi, $name" // Aggiorna il TextView
+                    }
+                    dialog.dismiss()
+                }
+                .setNegativeButton("Cancel") { dialog, _ ->
+                    dialog.dismiss()
+                }
+                .show()
         }
+
+        if (name.isEmpty()) {
+            name = "Guest"
+        }
+        nameView.text = "Hi, $name"
+        coinView.text = coins.toString()
+
+    /*
+    editNameButton.setOnClickListener{
+        val intent = Intent(this, NameActivity::class.java)
+        startActivity(intent)
+    }
+     */
+
         singlePlayerButton.setOnClickListener{
             val intent = Intent(this, QuestionActivity::class.java)
             startActivity(intent)
             coinView.text = coins.toString()
         }
+        val seeAllCheckBox = findViewById<CheckBox>(R.id.see_allCheckBox)
         val science = findViewById<CheckBox>(R.id.scienceCheckBox)
         val coding = findViewById<CheckBox>(R.id.codingCheckBox)
         val geography = findViewById<CheckBox>(R.id.geographyCheckBox)
@@ -48,6 +84,13 @@ class MainActivity : AppCompatActivity() {
         val art = findViewById<CheckBox>(R.id.artCheckBox)
         val shows = findViewById<CheckBox>(R.id.showsCheckBox)
         val general = findViewById<CheckBox>(R.id.generalCheckBox)
+        val allCheckBoxes = listOf(science, coding, geography, history, music, art, shows, general)
+
+        seeAllCheckBox.setOnCheckedChangeListener { _, isChecked ->
+            allCheckBoxes.forEach { it.isChecked = isChecked }
+        }
+
+
         science.setOnCheckedChangeListener{ buttonView, isChecked ->
             val c = assets.open("science.txt").bufferedReader().useLines { it.toList() }
             questionList.add(c)
