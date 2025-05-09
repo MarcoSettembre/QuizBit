@@ -1,0 +1,10 @@
+What is the continent with the most countries?0Asia,0Europe,0Oceania,1Africa
+What is the point furthest from any other land known as?0Geospatial Null,1Point Nemo,0Isolation Coordinate,0Hydrocentric Node
+What is the only UN state to recognize the cybernation of Joseon?1Antigua and Barbuda,0Barbados,0Tonga,0Kiribati
+What is the most populated country on Earth?0China,0Indonesia,1India,0USA
+How many countries are in the European Union?127,028,025,031
+What is the newest country?0Timor Leste,0eSwatini,1South Sudan,0Kosovo
+What is the country with the most time zones?1France,0Russia,0USA,0China
+How many capitals does South Africa have?00,01,02,13
+What is the first country to see a new day?0New Zealand,1Kiribati,0Samoa,0Russia
+What is the largest desert in the world?0Sahara,0Gobi,0Arabia,1Antarctica
