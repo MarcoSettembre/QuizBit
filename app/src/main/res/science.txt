@@ -8,3 +8,45 @@ How long is a galactic year?0200 million years,1230 million years,0180 million y
 What planet is closest in size to Earth?0Mercury,0Mars,1Venus,0Moon
 What is the pH of water?06,08,17,02
 What is the largest organ in the human body?0Heart,0Liver,0Brain,1Skin
+What is the chemical symbol for water?0O2,1H2O,0CO2,0HO2
+Which planet is known as the Red Planet?0Venus,1Mars,0Jupiter,0Mercury
+What is the process by which plants make their own food?0Respiration,0Fermentation,1Photosynthesis,0Digestion
+Which gas do humans need to breathe in to survive?0Carbon Dioxide,1Oxygen,0Hydrogen,0Nitrogen
+How many bones are in the adult human body?0198,1206,0220,0201
+What is the powerhouse of the cell?0Nucleus,0Ribosome,1Mitochondria,0Chloroplast
+Which part of the human body is responsible for pumping blood?0Brain,0Lungs,1Heart,0Liver
+What is the largest planet in our solar system?0Earth,0Saturn,1Jupiter,0Uranus
+Which of these is not a state of matter?0Solid,0Liquid,0Plasma,1Fiber
+What organ helps detoxify chemicals in the body?0Lungs,1Liver,0Kidney,0Stomach
+What is the closest star to Earth?0Alpha Centauri,0Sirius,1Sun,0Polaris
+Which scientist developed the theory of relativity?0Isaac Newton,1Albert Einstein,0Galileo Galilei,0Stephen Hawking
+What is the center of an atom called?0Electron,0Neutron,1Nucleus,0Proton
+Which blood cells help fight infections?0Red Blood Cells,0Platelets,1White Blood Cells,0Plasma
+Which vitamin is mainly produced when the human body is exposed to sunlight?0Vitamin A,0Vitamin C,1Vitamin D,0Vitamin K
+What is the boiling point of water at sea level?050°C,1100°C,0150°C,0200°C
+Which organ is responsible for filtering blood?0Brain,1Kidney,0Lungs,0Heart
+What do bees collect from flowers?0Nectar,0Water,0Pollean,1Both A and C
+What is the hardest natural substance on Earth?0Gold,1Diamond,0Iron,0Quartz
+Which part of the plant conducts photosynthesis?0Root,1Leaf,0Stem,0Flower
+Which gas is most abundant in Earth's atmosphere?0Oxygen,1Nitrogen,0Carbon Dioxide,0Hydrogen
+Which organ controls balance in the human body?0Heart,0Brain,1Inner Ear,0Spine
+What type of energy does the Sun produce?1Nuclear,0Electrical,0Mechanical,0Chemical
+Which planet has the most moons?0Mars,0Earth,1Saturn,0Mercury
+What is the basic unit of life?0Atom,1Cell,0Molecule,0Tissue
+Which element is necessary for breathing?0Hydrogen,0Carbon,1Oxygen,0Helium
+Which of these animals is a mammal?0Frog,1Whale,0Shark,0Crocodile
+What do we call animals that eat only plants?0Carnivores,0Omnivores,1Herbivores,0Insectivores
+Which planet is known for its rings?0Jupiter,1Saturn,0Venus,0Neptune
+What causes tides on Earth?0Wind,0Sun's Heat,1Moon's Gravity,0Earth's Rotation
+Which metal is liquid at room temperature?1Mercury,0Iron,0Zinc,0Copper
+Which disease is caused by a virus?0Tuberculosis,1Influenza,0Malaria,0Diabetes
+What is the main function of red blood cells?0Fight diseases,1Carry oxygen,0Digest food,0Produce energy
+What force pulls objects toward Earth?0Magnetism,0Friction,1Gravity,0Pressure
+What is the pH value of pure water?00,17,014,05
+What part of the cell contains genetic material?0Cytoplasm,0Cell Wall,0Membrane,1Nucleus
+Which scientist is known as the father of modern physics?1Newton,0Einstein,0Bohr,0Tesla
+What gas do plants absorb during photosynthesis?0Oxygen,1Carbon Dioxide,0Nitrogen,0Hydrogen
+Which of these is a renewable energy source?0Coal,0Oil,1Solar,0Natural Gas
+Which part of the human brain controls memory?0Cerebellum,0Medulla,1Hippocampus,0Thalamus
+
+
