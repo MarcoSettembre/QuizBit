@@ -8,4 +8,44 @@ What genre of music is Bob Marley most associated with?0Ska,0Blues,1Reggae,0Rock
 Which artist famously wore a meat dress at the 2010 MTV Video Music Awards?0Rihanna,1Lady Gaga,0Beyonce,0Katy Perry
 In which city was the famous music festival Woodstock held in 1969?0Los Angeles,1New York,0Chicago,0San Francisco
 Who composed the famous piece "The Four Seasons"?0Bach,1Vivaldi,0Mozart,0Beethoven
+Who composed the famous symphony "Symphony No. 9"?1Ludwig van Beethoven,0Wolfgang Amadeus Mozart,0Johann Sebastian Bach,0Franz Schubert
+Which instrument has 88 keys?0Guitar,0Harp,1Piano,0Accordion
+Who is known as the "King of Pop"?0Elvis Presley,1Michael Jackson,0Justin Bieber,0Prince
+Which country is famous for the traditional music style called Flamenco?0Italy,0France,1Spain,0Greece
+Which clef is also called the G clef?0Bass Clef,0Alto Clef,0Tenor Clef,1Treble Clef
+What is the highest female singing voice?0Mezzo-soprano,0Alto,1Soprano,0Contralto
+Who composed "The Four Seasons"?1Antonio Vivaldi,0Johann Strauss,0Franz Liszt,0Claude Debussy
+Which band released the album "Abbey Road"?1The Beatles,0The Rolling Stones,0Queen,0Pink Floyd
+What is the term for the speed of a musical piece?0Dynamics,1Tempo,0Harmony,0Timbre
+Which pop star's fans are known as "Swifties"?0Ariana Grande,1Taylor Swift,0Katy Perry,0Billie Eilish
+Which composer became deaf later in life?1Beethoven,0Mozart,0Chopin,0Haydn
+What type of musical instrument is a saxophone?0String,0Percussion,1Woodwind,0Brass
+In which city did Jazz originate?0Chicago,0New York,1New Orleans,0Los Angeles
+What is the Italian word for "slow" in music?0Allegro,1Largo,0Presto,0Andante
+Which famous female singer performed the song "Hello"?1Adele,0Rihanna,0Madonna,0Beyoncé
+Which instrument is primarilly used in Scottish traditional music?0Flute,1Bagpipes,0Violin,0Harp
+What is a group of four musicians called?1Quartet,0Trio,0Quintet,0Duo
+Which rock band released the song "Bohemian Rhapsody"?0Led Zeppelin,1Queen,0Aerosmith,0U2
+What is the symbol for a sharp note?0♭,1♯,0♮,0∞
+Who composed the opera "The Magic Flute"?0Verdi,0Wagner,1Mozart,0Puccini
+What do you call a person who writes music?0Lyricist,1Composer,0Conductor,0Producer
+Which note is higher?0A,0C,0E,1G
+What is the name of the symbol that extends the length of a note?0Fermata,0Slur,0Tie,1Dot
+Which genre is BTS known for?0Pop,1K-pop,0Jazz,0Rock
+What is the lowest male singing voice?0Baritone,0Tenor,1Bass,0Countertenor
+Which composer wrote "Clair de Lune"?1Debussy,0Ravel,0Chopin,0Bach
+Wich American singer is known for the album "Lemonade"?0Rihanna,1Beyoncé,0Lady Gaga,0Alicia Keys
+Which band is famous for the song "Hotel California"?1Eagles,0Queen,0Nirvana,0The Beatles
+In music, what does "piano" mean?0Fast,0Loud,0Slow,1Soft
+Which film featured the hit song "My Heart Will Go On"?1Titanic,0Avatar,0Frozen,0The Lion King
+Which musical instrument family does the cello belong to?1String,0Woodwind,0Brass,0Percussion
+What is the term for a repeated section in music?0Verse,0Bridge,1Chorus,0Solo
+Which artist is famous for the song "Shape of You"?1Ed Sheeran,0Bruno Mars,0Shawn Mendes,0Justin Timberlake
+Who composed "Shawn Lake"?1Tchaikovsky,0Beethoven,0Mahler,0Shostakovich
+In which year did Geolier participate in the Sanremo Music Festival?02022,02023,12024,02025
+Which of these is a percussion instrument?0Flute,0Trumpet,0Violin,1Snare Drum
+Which musical period came first?0Romantic,1Baroque,0Classical,0Modern
+Which artist is known as the "Queen of Soul"?1Aretha Franklin,0Whitney Houston,0Diana Ross,0Mariah Carey
+Which genre is known for heavy use of distorted guitars?0Classical,0Jazz,1Heavy Metal,0Country
+Which festival is known as the biggest electronic dance music festival?1Tomorrowland,0Coachella,0Glastonbury,0Lollapalooza
 
