@@ -22,19 +22,19 @@ What is the correct way to declare a function in JavaScript?1function myFunction
 Which of the following is a frontend framework?0Laravel,1React,0Flask,0Django
 What does SQL stand for?0Server Query Long,1Structured Query Language,0Software Question Logic,0Simple Query Listing
 Which command is used to initialize a Git repository?1git init,0git start,0git create,0git new
-In Python, what does the "len()" function do?0Converts numbers to strings,1Returns the length of a string or list,0Deletes variables,0Creates a list
+In Python what does the "len()" function do?0Converts numbers to strings,1Returns the length of a string or list,0Deletes variables,0Creates a list
 Which file extension is typically used for JavaScript files?1.js,0.java,0.jsx,0.script
 Which symbol is used to denote a class in Python?0class{},1class:,0def class(),0class()
 What is the result of 3 + "3" in JavaScript?06,133,0Error,0Undefined
 Which of the following is a valid CSS property?1font-style,0text-code,0div-size,0layout-box
 What is the main purpose of a database?0Render web pages,0Animate graphics,1Store and organize data,0Manage code versions
 Which operator is used for logical AND in most programming languages?0&,0||,1&&,0<>
-In coding, what is "debugging"?0Writing new code,0Encrypting files,1Fixing errors in code,0Formatting data
+In coding what is "debugging"?0Writing new code,0Encrypting files,1Fixing errors in code,0Formatting data
 Which HTML tag is used to display an image?1<img>,0<picture>,0<src>,0<media>
 What does the "return" keyword do in a function?0Stops the program,0Prints to the console,0Exits the browser,1Sends a value back from the function
 What is a "loop" useful for?1Repeating a block of code,0Writing CSS,0Storing HTML,0Deleting variables
 Which of the following is a commonly used NoSQL database?0MySQL,1MongoDB,0PostgreSQL,0SQLite
-In HTML, what does the <ul> tag represent?0Upload list,0Underlined list,1Unordered list,0Unique layout
+In HTML what does the <ul> tag represent?0Upload list,0Underlined list,1Unordered list,0Unique layout
 What is the correct way to write a comment in HTML?0//comment,1<!--comment-->,0/*comment*/,0#comment
 Which language is best known for statistical analysis and data science?0Java,1R,0HTML,0Swift
 What is a "bug" in programming?0A software update,0A program setting,1A mistake or error in the code,0A command
