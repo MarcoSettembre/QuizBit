@@ -2,7 +2,7 @@ Who is known as the "King of Pop"?1Michael Jackson,0Elvis Presley,0Prince,0 Jame
 Which band wrote and performed "Bohemian Rhapsody"?0The Rolling Stones,0The Beatles,0Pink Floyd,1Queen
 What year did The Beatles release their album "Sgt. Pepper's Lonely Hearts Club Band"?01965,11967,01970,01963
 What is the best-selling album of all time?0The Eagles - "Hotel California",0Pink Floyd - "The Dark Side of the Moon",1Michael Jackson - "Thriller",0ABBA - "Arrival"
-Which song did Whitney Houston famously cover in 1992, which became one of her biggest hits?1I Will Always Love You,0I Have Nothing,0Run to You,0Greatest Love of All
+Which song did Whitney Houston famously cover in 1992 which became one of her biggest hits?1I Will Always Love You,0I Have Nothing,0Run to You,0Greatest Love of All
 Who was the first woman inducted into the Rock and Roll Hall of Fame?0Madonna,0Tina Turner,0Janis Joplin,1Aretha Franklin
 What genre of music is Bob Marley most associated with?0Ska,0Blues,1Reggae,0Rock
 Which artist famously wore a meat dress at the 2010 MTV Video Music Awards?0Rihanna,1Lady Gaga,0Beyonce,0Katy Perry
@@ -36,7 +36,7 @@ What is the lowest male singing voice?0Baritone,0Tenor,1Bass,0Countertenor
 Which composer wrote "Clair de Lune"?1Debussy,0Ravel,0Chopin,0Bach
 Wich American singer is known for the album "Lemonade"?0Rihanna,1Beyoncé,0Lady Gaga,0Alicia Keys
 Which band is famous for the song "Hotel California"?1Eagles,0Queen,0Nirvana,0The Beatles
-In music, what does "piano" mean?0Fast,0Loud,0Slow,1Soft
+In music what does "piano" mean?0Fast,0Loud,0Slow,1Soft
 Which film featured the hit song "My Heart Will Go On"?1Titanic,0Avatar,0Frozen,0The Lion King
 Which musical instrument family does the cello belong to?1String,0Woodwind,0Brass,0Percussion
 What is the term for a repeated section in music?0Verse,0Bridge,1Chorus,0Solo
