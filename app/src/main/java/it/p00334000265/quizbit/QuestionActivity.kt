@@ -7,12 +7,11 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import android.widget.Toast
-import java.io.File
 import android.graphics.Color
+import android.util.Log
 import androidx.core.view.WindowInsetsCompat
 import it.p00334000265.quizbit.QuizBit.Companion.questionList
 import it.p00334000265.quizbit.QuizBit.Companion.coins
-import it.p00334000265.quizbit.QuizBit.Companion.name
 
 class QuestionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,6 +23,7 @@ class QuestionActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        questionList.shuffle()
         val questionText = findViewById<TextView>(R.id.question_text)
         val op1 = findViewById<Button>(R.id.option1)
         val op2 = findViewById<Button>(R.id.option2)
@@ -31,15 +31,10 @@ class QuestionActivity : AppCompatActivity() {
         val op4 = findViewById<Button>(R.id.option4)
         val nextButton = findViewById<Button>(R.id.next_button)
         var isAnswered = false
-        var correct: String = ""
-        var questions = mutableListOf<String>()
+        var correct = ""
         var i = 0
-        for (i in 0..9) {
-            questions.add(questionList[i].toString())
-        }
-        i = 0
-        var parts = questions[i].split("?", ",")
-        questionText.text = parts[0].toString()
+        var parts = questionList[i].split("?", ",")
+        questionText.text = parts[0].toString() + "?"
         for (j in 1..4) {
             if (parts[j].startsWith("1"))
                 correct = parts[j].substring(1)
@@ -58,7 +53,7 @@ class QuestionActivity : AppCompatActivity() {
                 } else {
                     op1.setBackgroundColor(Color.parseColor("#FF0000"))
                     for(j in 1..4){
-                        if(parts[j]==correct){
+                        if(parts[j].substring(1)==correct){
                             when(j){
                                 1 -> op1.setBackgroundColor(Color.parseColor("#00FF00"))
                                 2 -> op2.setBackgroundColor(Color.parseColor("#00FF00"))
@@ -80,7 +75,7 @@ class QuestionActivity : AppCompatActivity() {
                 } else {
                     op2.setBackgroundColor(Color.parseColor("#FF0000"))
                     for(j in 1..4){
-                        if(parts[j]==correct){
+                        if(parts[j].substring(1)==correct){
                             when(j){
                                 1 -> op1.setBackgroundColor(Color.parseColor("#00FF00"))
                                 2 -> op2.setBackgroundColor(Color.parseColor("#00FF00"))
@@ -102,7 +97,7 @@ class QuestionActivity : AppCompatActivity() {
                 } else {
                     op3.setBackgroundColor(Color.parseColor("#FF0000"))
                     for(j in 1..4){
-                        if(parts[j]==correct){
+                        if(parts[j].substring(1)==correct){
                             when(j){
                                 1 -> op1.setBackgroundColor(Color.parseColor("#00FF00"))
                                 2 -> op2.setBackgroundColor(Color.parseColor("#00FF00"))
@@ -124,7 +119,7 @@ class QuestionActivity : AppCompatActivity() {
                 } else {
                     op4.setBackgroundColor(Color.parseColor("#FF0000"))
                     for(j in 1..4){
-                        if(parts[j]==correct){
+                        if(parts[j].substring(1)==correct){
                             when(j){
                                 1 -> op1.setBackgroundColor(Color.parseColor("#00FF00"))
                                 2 -> op2.setBackgroundColor(Color.parseColor("#00FF00"))
@@ -140,18 +135,20 @@ class QuestionActivity : AppCompatActivity() {
         }
         nextButton.setOnClickListener{
             if(isAnswered){
+                if(i==9){
+                    finish()
+                }
                 i++
-                op1.setBackgroundColor(Color.parseColor("@color/navy_blue"))
-                op2.setBackgroundColor(Color.parseColor("@color/navy_blue"))
-                op3.setBackgroundColor(Color.parseColor("@color/navy_blue"))
-                op4.setBackgroundColor(Color.parseColor("@color/navy_blue"))
+                val defaultColor = resources.getColor(R.color.purple, theme)
+                op1.setBackgroundColor(defaultColor)
+                op2.setBackgroundColor(defaultColor)
+                op3.setBackgroundColor(defaultColor)
+                op4.setBackgroundColor(defaultColor)
                 if(i==9)
                     nextButton.text = "Finish"
                 isAnswered=false
-                if(i==10){
-                   finish()
-                }
-
+            } else {
+                Toast.makeText(this, "Answer the question first!", Toast.LENGTH_SHORT).show()
             }
         }
     }

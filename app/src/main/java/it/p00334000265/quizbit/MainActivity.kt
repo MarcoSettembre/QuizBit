@@ -65,7 +65,6 @@ class MainActivity : AppCompatActivity() {
         singlePlayerButton.setOnClickListener{
             val intent = Intent(this, QuestionActivity::class.java)
             startActivity(intent)
-            coinView.text = coins.toString()
         }
         val checkAllCheckBox = findViewById<CheckBox>(R.id.check_allCheckBox)
         val science = findViewById<CheckBox>(R.id.scienceCheckBox)
@@ -85,35 +84,43 @@ class MainActivity : AppCompatActivity() {
 
         science.setOnCheckedChangeListener{ buttonView, isChecked ->
             val c = assets.open("science.txt").bufferedReader().useLines { it.toList() }
-            questionList.add(c)
+            for(line in c)
+                questionList.add(line)
         }
         coding.setOnCheckedChangeListener{ buttonView, isChecked ->
             val c = assets.open("coding.txt").bufferedReader().useLines { it.toList() }
-            questionList.add(c)
+            for(line in c)
+                questionList.add(line)
         }
         geography.setOnCheckedChangeListener{ buttonView, isChecked ->
             val c = assets.open("geography.txt").bufferedReader().useLines { it.toList() }
-            questionList.add(c)
+            for(line in c)
+                questionList.add(line)
         }
         history.setOnCheckedChangeListener{ buttonView, isChecked ->
             val c = assets.open("history.txt").bufferedReader().useLines { it.toList() }
-            questionList.add(c)
+            for(line in c)
+                questionList.add(line)
         }
         music.setOnCheckedChangeListener{ buttonView, isChecked ->
             val c = assets.open("music.txt").bufferedReader().useLines { it.toList() }
-            questionList.add(c)
+            for(line in c)
+                questionList.add(line)
         }
         art.setOnCheckedChangeListener{ buttonView, isChecked ->
             val c = assets.open("art.txt").bufferedReader().useLines { it.toList() }
-            questionList.add(c)
+            for(line in c)
+                questionList.add(line)
         }
         shows.setOnCheckedChangeListener{ buttonView, isChecked ->
             val c = assets.open("shows.txt").bufferedReader().useLines { it.toList() }
-            questionList.add(c)
+            for(line in c)
+                questionList.add(line)
         }
         general.setOnCheckedChangeListener{ buttonView, isChecked ->
             val c = assets.open("general.txt").bufferedReader().useLines { it.toList() }
-            questionList.add(c)
+            for(line in c)
+                questionList.add(line)
         }
     }
     override fun onResume() {
@@ -122,5 +129,6 @@ class MainActivity : AppCompatActivity() {
         val coinView = findViewById<TextView>(R.id.textView3)
         nameView.text = "Hi, " + name
         coinView.text = coins.toString()
+        questionList.clear()
     }
 }
