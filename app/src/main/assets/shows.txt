@@ -1,36 +1,36 @@
-In Back to the Future, what is the time machine made from?1DeLorean,0Toyota Corolla,0Ford Fiesta,0Porsche 959
+In Back to the Future what is the time machine made from?1DeLorean,0Toyota Corolla,0Ford Fiesta,0Porsche 959
 Which film directed by Christopher Nolan deals with time travel and black holes in order to save humanity?0Inception,0The Prestige,0Dunkirk,1Interstellar
-In Everything Everywhere All at Once, what unique item does the main character use to access different versions of herself in alternate realities?0Cellphone,0Eyeglasses,0Portal gun,1Hotdog finger
-In Breaking Bad, what is the street name for the drug that Walter White manufactures?0Crystal Clear,0Red Death,1Blue Sky,0Sky High
-In Rick and Morty, who is Beth’s husband?0Morty,1Jerry,0Summer,0Rick
+In Everything Everywhere All at Once what unique item does the main character use to access different versions of herself in alternate realities?0Cellphone,0Eyeglasses,0Portal gun,1Hotdog finger
+In Breaking Bad what is the street name for the drug that Walter White manufactures?0Crystal Clear,0Red Death,1Blue Sky,0Sky High
+In Rick and Morty who is Beth’s husband?0Morty,1Jerry,0Summer,0Rick
 Who played the role of Marty McFly in Back to the Future?0Leonardo DiCaprio,0Tom Hanks,0Johnny Depp,1Michael J. Fox
-Which actor played the role of Cooper, the pilot who embarks on a mission to save humanity in Interstellar?0Matt Damon,0Leonardo DiCaprio,1Matthew McConaughey,0Christian Bale
+Which actor played the role of Cooper the pilot who embarks on a mission to save humanity in Interstellar?0Matt Damon,0Leonardo DiCaprio,1Matthew McConaughey,0Christian Bale
 Which of the following characters from Breaking Bad is Walter White’s primary partner in crime?0Saul Goodman,0Hank Schrader,1Jesse Pinkman,0Gus Fring
-In Everything Everywhere All at Once, what is the main character, Evelyn’s, occupation?1Laundromat owner,0Teacher,0Lawyer,0Physicist
+In Everything Everywhere All at Once what is the main character Evelyn’s occupation?1Laundromat owner,0Teacher,0Lawyer,0Physicist
 What is Rick’s relationship to Morty in Rick and Morty?0Father and son,0Uncle and nephew,1Grandfather and grandson,0Mentor and apprentice
 Who is the main character in the TV show Breaking Bad?0Jesse Pinkman,1Walter White,0Saul Goodman,0Hank Schrader
 Which series is based on the British royal family?1The Crown,0Bridgerton,0Downtown Abbey,0The Queen's Gambit
-In Friends, what is the name of Ross’s second wife?0Carol,1Emily,0Rachel,0Susan
+In Friends what is the name of Ross’s second wife?0Carol,1Emily,0Rachel,0Susan
 Which talent show famously uses a red buzzer to reject acts?1America's Got Talent,0The Voice,0X Factor,0MasterChef
 Who plays the character Eleven in Stranger Things?0Sadie Sink,1Millie Bobby Brown,0Natalia Dyer,0Maya Hawke
 What is the name of the wizarding competition in Harry Potter and the Goblet of Fire?0Magic Tournament,0Hogwarts Cup,1Triwizard Tournament,0Wizarding Challenge
 Which show features the fictional continent of Westeros?0Vikings,1Game of Thrones,0The Witcher,0The Rings of Power
-In The Simpsons, what is Homer’s favorite drink?0Water,1Duff Beer,0Coffee,0Lemonade
+In The Simpsons what is Homer’s favorite drink?0Water,1Duff Beer,0Coffee,0Lemonade
 Who is the host of The Tonight Show as of 2025?0Jimmy Kimmel,1Jimmy Fallon,0Trevor Noah,0Stephen Colbert
 Which reality show involves surviving on a deserted island?1Survivor,0Big Brother,0The Circle,0Love Island
 Which famous chef stars in Hell’s Kitchen?0Jamie Oliver,1Jamie Oliver,0Bobby Flay,0Wolfgang Puck
-In Squid Game, how many players start the deadly competition?0356,1456,0500,0600
+In Squid Game how many players start the deadly competition?0356,1456,0500,0600
 Which show follows the Dutton family in Montana?1Yellowstone,0Outer Banks,0Ozark,0Succession
 Who is the superhero in the Disney+ series Loki?0Thor,1Loki,0Iron Man,0Hulk
 Which Italian show gained worldwide popularity on Netflix?0Suburra,0Gomorra,0ZeroZeroZero,1All of the above
-In The Voice, how do coaches choose singers during auditions?0Watching videos,1Blind Auditions,0Live Performances,0Public Votes
+In The Voice how do coaches choose singers during auditions?0Watching videos,1Blind Auditions,0Live Performances,0Public Votes
 Who is the main villain in Avengers: Infinity War?1Thanos,0Loki,0Ultron,0Red Skull
 What’s the name of the coffee shop in Friends?0Central Café,0New York Beans,1Central Perk,0Perk Palace
 Which Netflix series is about a chess prodigy?0The Crown,1The Queen's Gambit,0Mindhunter,0Peaky Blinders
-Which popular show is set in Hawkins, Indiana?1Stranger Things,0Riverdale,0The Umbrella Academy,0Manifest
+Which popular show is set in Hawkins Indiana?1Stranger Things,0Riverdale,0The Umbrella Academy,0Manifest
 Who plays the role of Spider-Man in No Way Home?0Andrew Garfield,1Tom Holland,0Tobey Maguire,0Chris Evans
 Which reality show focuses on baking competitions?0MasterChef,1Bake Off,0Iron Chef,0Top Chef
-In Money Heist, what is the name of the mastermind?0Berlin,0Denver,1The Professor,0Moscow
+In Money Heist what is the name of the mastermind?0Berlin,0Denver,1The Professor,0Moscow
 Which animated show features the character Rick Sanchez?0Family Guy,0The Simpsons,1Rick and Morty,0Futurama
 Which Netflix reality show locks singles in pods to find love?0Too Hot To Handle,1Love is Blind,0The Circle,0Perfect Match
 What is the capital city in The Hunger Games?0Panem,1Capitol,0District 13,0District 1
@@ -43,7 +43,7 @@ Who is the main character in Peaky Blinders?0Arthur Shelby,1Tommy Shelby,0Michae
 Which movie series features the character Katniss Everdeen?0Divergent,1The Hunger Games,0Twilight,0Maze Runner
 What is the name of the deadly game in Squid Game’s first episode?0Tug of War,1Red Light, Green Light,0Marble Game,0Glass Bridge
 Who plays the main role in John Wick?0Tom Cruise,0Chris Hemsworth,1Keanu Reeves,0Brad Pitt
-In The Mandalorian, what is the real name of "Baby Yoda"?0Yaddle,0Yoru,0Boda,1Grogu
+In The Mandalorian what is the real name of "Baby Yoda"?0Yaddle,0Yoru,0Boda,1Grogu
 Which famous singing competition originated in the UK?0The Voice,0America's Got Talent,0Idol,1X Factor
 Who is the main villain in Star Wars: The Rise of Skywalker?0Darth Vader,0Kylo Ren,1Emperor Palpatine,0General Hux
 Which Netflix series is about drug cartels and money laundering?0Narcos,1Ozark,0Breaking Bad,0Queen of the South
