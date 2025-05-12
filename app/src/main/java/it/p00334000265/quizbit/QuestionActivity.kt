@@ -2,13 +2,13 @@ package it.p00334000265.quizbit
 
 import android.os.Bundle
 import android.widget.Button
-import android.widget.ListAdapter
-import android.widget.ListView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
+import android.widget.Toast
 import java.io.File
+import android.graphics.Color
 import androidx.core.view.WindowInsetsCompat
 import it.p00334000265.quizbit.QuizBit.Companion.questionList
 import it.p00334000265.quizbit.QuizBit.Companion.coins
@@ -25,22 +25,134 @@ class QuestionActivity : AppCompatActivity() {
             insets
         }
         val questionText = findViewById<TextView>(R.id.question_text)
-        val optionList = findViewById<ListView>(R.id.option_list)
+        val op1 = findViewById<Button>(R.id.option1)
+        val op2 = findViewById<Button>(R.id.option2)
+        val op3 = findViewById<Button>(R.id.option3)
+        val op4 = findViewById<Button>(R.id.option4)
         val nextButton = findViewById<Button>(R.id.next_button)
         var isAnswered = false
+        var correct: String = ""
         var questions = mutableListOf<String>()
         var i = 0
-        for(i in 0..9){
+        for (i in 0..9) {
             questions.add(questionList[i].toString())
         }
-        for(i in 0..9){
-            var parts = questions[i].split("?",",")
-            questionText.text = parts[0].toString()
-            var options = mutableListOf<String>()
-            for(j in 1..3){
-                options.add(parts[j].toString())
+        i = 0
+        var parts = questions[i].split("?", ",")
+        questionText.text = parts[0].toString()
+        for (j in 1..4) {
+            if (parts[j].startsWith("1"))
+                correct = parts[j].substring(1)
+            when (j) {
+                1 -> op1.text = parts[j].substring(1)
+                2 -> op2.text = parts[j].substring(1)
+                3 -> op3.text = parts[j].substring(1)
+                4 -> op4.text = parts[j].substring(1)
             }
-            optionList.adapter = options as ListAdapter?
+        }
+        op1.setOnClickListener {
+            if(!isAnswered) {
+                if(op1.text == correct) {
+                    coins+=100
+                    op1.setBackgroundColor(Color.parseColor("#00FF00"))
+                } else {
+                    op1.setBackgroundColor(Color.parseColor("#FF0000"))
+                    for(j in 1..4){
+                        if(parts[j]==correct){
+                            when(j){
+                                1 -> op1.setBackgroundColor(Color.parseColor("#00FF00"))
+                                2 -> op2.setBackgroundColor(Color.parseColor("#00FF00"))
+                                3 -> op3.setBackgroundColor(Color.parseColor("#00FF00"))
+                                4 -> op4.setBackgroundColor(Color.parseColor("#00FF00"))
+                            }
+                            break
+                        }
+                    }
+                }
+                isAnswered = true
+            }
+        }
+        op2.setOnClickListener {
+            if(!isAnswered) {
+                if(op2.text == correct) {
+                    coins+=100
+                    op2.setBackgroundColor(Color.parseColor("#00FF00"))
+                } else {
+                    op2.setBackgroundColor(Color.parseColor("#FF0000"))
+                    for(j in 1..4){
+                        if(parts[j]==correct){
+                            when(j){
+                                1 -> op1.setBackgroundColor(Color.parseColor("#00FF00"))
+                                2 -> op2.setBackgroundColor(Color.parseColor("#00FF00"))
+                                3 -> op3.setBackgroundColor(Color.parseColor("#00FF00"))
+                                4 -> op4.setBackgroundColor(Color.parseColor("#00FF00"))
+                            }
+                            break
+                        }
+                    }
+                }
+                isAnswered = true
+            }
+        }
+        op3.setOnClickListener {
+            if(!isAnswered) {
+                if(op3.text == correct) {
+                    coins+=100
+                    op3.setBackgroundColor(Color.parseColor("#00FF00"))
+                } else {
+                    op3.setBackgroundColor(Color.parseColor("#FF0000"))
+                    for(j in 1..4){
+                        if(parts[j]==correct){
+                            when(j){
+                                1 -> op1.setBackgroundColor(Color.parseColor("#00FF00"))
+                                2 -> op2.setBackgroundColor(Color.parseColor("#00FF00"))
+                                3 -> op3.setBackgroundColor(Color.parseColor("#00FF00"))
+                                4 -> op4.setBackgroundColor(Color.parseColor("#00FF00"))
+                            }
+                            break
+                        }
+                    }
+                }
+                isAnswered = true
+            }
+        }
+        op4.setOnClickListener {
+            if(!isAnswered) {
+                if(op4.text == correct) {
+                    coins+=100
+                    op4.setBackgroundColor(Color.parseColor("#00FF00"))
+                } else {
+                    op4.setBackgroundColor(Color.parseColor("#FF0000"))
+                    for(j in 1..4){
+                        if(parts[j]==correct){
+                            when(j){
+                                1 -> op1.setBackgroundColor(Color.parseColor("#00FF00"))
+                                2 -> op2.setBackgroundColor(Color.parseColor("#00FF00"))
+                                3 -> op3.setBackgroundColor(Color.parseColor("#00FF00"))
+                                4 -> op4.setBackgroundColor(Color.parseColor("#00FF00"))
+                            }
+                            break
+                        }
+                    }
+                }
+                isAnswered = true
+            }
+        }
+        nextButton.setOnClickListener{
+            if(isAnswered){
+                i++
+                op1.setBackgroundColor(Color.parseColor("@color/navy_blue"))
+                op2.setBackgroundColor(Color.parseColor("@color/navy_blue"))
+                op3.setBackgroundColor(Color.parseColor("@color/navy_blue"))
+                op4.setBackgroundColor(Color.parseColor("@color/navy_blue"))
+                if(i==9)
+                    nextButton.text = "Finish"
+                isAnswered=false
+                if(i==10){
+                   finish()
+                }
+
+            }
         }
     }
 }
