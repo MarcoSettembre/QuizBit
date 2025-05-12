@@ -14,12 +14,14 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 import android.app.AlertDialog
 import android.widget.EditText
+import android.widget.Toast
 
 import it.p00334000265.quizbit.QuizBit.Companion.questionList
 import it.p00334000265.quizbit.QuizBit.Companion.coins
 import it.p00334000265.quizbit.QuizBit.Companion.name
 
 class MainActivity : AppCompatActivity() {
+    private var isReady = false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -62,10 +64,6 @@ class MainActivity : AppCompatActivity() {
         }
         nameView.text = "Hi, $name"
         coinView.text = coins.toString()
-        singlePlayerButton.setOnClickListener{
-            val intent = Intent(this, QuestionActivity::class.java)
-            startActivity(intent)
-        }
         val checkAllCheckBox = findViewById<CheckBox>(R.id.check_allCheckBox)
         val science = findViewById<CheckBox>(R.id.scienceCheckBox)
         val coding = findViewById<CheckBox>(R.id.codingCheckBox)
@@ -76,51 +74,65 @@ class MainActivity : AppCompatActivity() {
         val shows = findViewById<CheckBox>(R.id.showsCheckBox)
         val general = findViewById<CheckBox>(R.id.generalCheckBox)
         val allCheckBoxes = listOf(science, coding, geography, history, music, art, shows, general)
-
-        checkAllCheckBox.setOnCheckedChangeListener { _, isChecked ->
-            allCheckBoxes.forEach { it.isChecked = isChecked }
+        singlePlayerButton.setOnClickListener {
+            if (isReady) {
+                val intent = Intent(this, QuestionActivity::class.java)
+                startActivity(intent)
+            } else {
+                Toast.makeText(this, "Select at least one category!", Toast.LENGTH_SHORT).show()
+            }
         }
-
-
+        checkAllCheckBox.setOnCheckedChangeListener { buttonView, isChecked ->
+            allCheckBoxes.forEach { it.isChecked = isChecked }
+            isReady = true
+        }
         science.setOnCheckedChangeListener{ buttonView, isChecked ->
             val c = assets.open("science.txt").bufferedReader().useLines { it.toList() }
             for(line in c)
                 questionList.add(line)
+            isReady = true
         }
         coding.setOnCheckedChangeListener{ buttonView, isChecked ->
             val c = assets.open("coding.txt").bufferedReader().useLines { it.toList() }
             for(line in c)
                 questionList.add(line)
+            isReady = true
         }
         geography.setOnCheckedChangeListener{ buttonView, isChecked ->
             val c = assets.open("geography.txt").bufferedReader().useLines { it.toList() }
             for(line in c)
                 questionList.add(line)
+            isReady = true
         }
         history.setOnCheckedChangeListener{ buttonView, isChecked ->
             val c = assets.open("history.txt").bufferedReader().useLines { it.toList() }
             for(line in c)
                 questionList.add(line)
+            isReady = true
         }
         music.setOnCheckedChangeListener{ buttonView, isChecked ->
             val c = assets.open("music.txt").bufferedReader().useLines { it.toList() }
             for(line in c)
                 questionList.add(line)
+            isReady = true
         }
         art.setOnCheckedChangeListener{ buttonView, isChecked ->
             val c = assets.open("art.txt").bufferedReader().useLines { it.toList() }
             for(line in c)
                 questionList.add(line)
+            isReady = true
         }
         shows.setOnCheckedChangeListener{ buttonView, isChecked ->
             val c = assets.open("shows.txt").bufferedReader().useLines { it.toList() }
             for(line in c)
                 questionList.add(line)
+            isReady = true
         }
         general.setOnCheckedChangeListener{ buttonView, isChecked ->
             val c = assets.open("general.txt").bufferedReader().useLines { it.toList() }
             for(line in c)
                 questionList.add(line)
+            isReady = true
         }
     }
     override fun onResume() {
@@ -129,6 +141,12 @@ class MainActivity : AppCompatActivity() {
         val coinView = findViewById<TextView>(R.id.textView3)
         nameView.text = "Hi, " + name
         coinView.text = coins.toString()
+        val checkboxes = listOf(R.id.scienceCheckBox, R.id.codingCheckBox, R.id.geographyCheckBox, R.id.historyCheckBox, R.id.musicCheckBox, R.id.artCheckBox, R.id.showsCheckBox, R.id.generalCheckBox)
+        for(checkbox in checkboxes){
+            val checkBox = findViewById<CheckBox>(checkbox)
+            checkBox.isChecked = false
+        }
         questionList.clear()
+        isReady = false
     }
 }

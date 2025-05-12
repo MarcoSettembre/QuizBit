@@ -15,6 +15,7 @@ import it.p00334000265.quizbit.QuizBit.Companion.coins
 
 class QuestionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_question)
@@ -31,9 +32,10 @@ class QuestionActivity : AppCompatActivity() {
         val op4 = findViewById<Button>(R.id.option4)
         val nextButton = findViewById<Button>(R.id.next_button)
         var isAnswered = false
-        var correct = ""
         var i = 0
-        var parts = questionList[i].split("?", ",")
+        var parts: List<String>
+        var correct = ""
+        parts = questionList[i].split("?", ",")
         questionText.text = parts[0].toString() + "?"
         for (j in 1..4) {
             if (parts[j].startsWith("1"))
@@ -147,6 +149,18 @@ class QuestionActivity : AppCompatActivity() {
                 if(i==9)
                     nextButton.text = "Finish"
                 isAnswered=false
+                parts = questionList[i].split("?", ",")
+                questionText.text = parts[0].toString() + "?"
+                for (j in 1..4) {
+                    if (parts[j].startsWith("1"))
+                        correct = parts[j].substring(1)
+                    when (j) {
+                        1 -> op1.text = parts[j].substring(1)
+                        2 -> op2.text = parts[j].substring(1)
+                        3 -> op3.text = parts[j].substring(1)
+                        4 -> op4.text = parts[j].substring(1)
+                    }
+                }
             } else {
                 Toast.makeText(this, "Answer the question first!", Toast.LENGTH_SHORT).show()
             }
