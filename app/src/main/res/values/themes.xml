@@ -8,4 +8,8 @@
     <style name="Theme.QuizBit" parent="Base.Theme.QuizBit" >
         <item name="android:windowTranslucentNavigation" > true </item>
     </style>
+    <style name="CircleImageview">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
 </resources>

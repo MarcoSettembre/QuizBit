@@ -25,7 +25,7 @@ class QuestionActivity : AppCompatActivity() {
             insets
         }
         questionList.shuffle()
-        val questionText = findViewById<TextView>(R.id.question_text)
+        val questionText = findViewById<TextView>(R.id.questionList)
         val op1 = findViewById<Button>(R.id.option1)
         val op2 = findViewById<Button>(R.id.option2)
         val op3 = findViewById<Button>(R.id.option3)
