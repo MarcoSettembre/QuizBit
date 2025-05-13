@@ -139,26 +139,27 @@ class QuestionActivity : AppCompatActivity() {
             if(isAnswered){
                 if(i==9){
                     finish()
-                }
-                i++
-                val defaultColor = resources.getColor(R.color.purple, theme)
-                op1.setBackgroundColor(defaultColor)
-                op2.setBackgroundColor(defaultColor)
-                op3.setBackgroundColor(defaultColor)
-                op4.setBackgroundColor(defaultColor)
-                if(i==9)
-                    nextButton.text = "Finish"
-                isAnswered=false
-                parts = questionList[i].split("?", ",")
-                questionText.text = parts[0].toString() + "?"
-                for (j in 1..4) {
-                    if (parts[j].startsWith("1"))
-                        correct = parts[j].substring(1)
-                    when (j) {
-                        1 -> op1.text = parts[j].substring(1)
-                        2 -> op2.text = parts[j].substring(1)
-                        3 -> op3.text = parts[j].substring(1)
-                        4 -> op4.text = parts[j].substring(1)
+                } else{
+                    i++
+                    val defaultColor = resources.getColor(R.color.purple, theme)
+                    op1.setBackgroundColor(defaultColor)
+                    op2.setBackgroundColor(defaultColor)
+                    op3.setBackgroundColor(defaultColor)
+                    op4.setBackgroundColor(defaultColor)
+                    if(i==9)
+                        nextButton.text = "Finish"
+                    isAnswered=false
+                    parts = questionList[i].split("?", ",")
+                    questionText.text = parts[0].toString() + "?"
+                    for (j in 1..4) {
+                        if (parts[j].startsWith("1"))
+                            correct = parts[j].substring(1)
+                        when (j) {
+                            1 -> op1.text = parts[j].substring(1)
+                            2 -> op2.text = parts[j].substring(1)
+                            3 -> op3.text = parts[j].substring(1)
+                            4 -> op4.text = parts[j].substring(1)
+                        }
                     }
                 }
             } else {
