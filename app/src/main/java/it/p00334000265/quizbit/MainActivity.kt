@@ -1,7 +1,6 @@
 package it.p00334000265.quizbit
 
 import android.os.Bundle
-import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -10,12 +9,9 @@ import android.content.Intent
 import android.widget.CheckBox
 import android.widget.ImageView
 import android.widget.TextView
-import java.io.BufferedReader
-import java.io.InputStreamReader
 import android.app.AlertDialog
 import android.widget.EditText
 import android.widget.Toast
-
 import it.p00334000265.quizbit.QuizBit.Companion.questionList
 import it.p00334000265.quizbit.QuizBit.Companion.coins
 import it.p00334000265.quizbit.QuizBit.Companion.name
