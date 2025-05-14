@@ -8,7 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import android.widget.Toast
 import android.graphics.Color
+import com.google.android.material.progressindicator.LinearProgressIndicator
 import android.util.Log
+import android.widget.ProgressBar
 import androidx.core.view.WindowInsetsCompat
 import it.p00334000265.quizbit.QuizBit.Companion.questionList
 import it.p00334000265.quizbit.QuizBit.Companion.coins
@@ -19,12 +21,14 @@ class QuestionActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_question)
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.question)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
         questionList.shuffle()
+        val progressBar = findViewById<LinearProgressIndicator>(R.id.progressBar)
         val questionText = findViewById<TextView>(R.id.question_text)
         val op1 = findViewById<Button>(R.id.option1)
         val op2 = findViewById<Button>(R.id.option2)
@@ -35,6 +39,7 @@ class QuestionActivity : AppCompatActivity() {
         var i = 0
         var parts: List<String>
         var correct = ""
+        progressBar.progress= 10
         parts = questionList[i].split("?", ",")
         questionText.text = parts[0].toString() + "?"
         for (j in 1..4) {
@@ -47,6 +52,12 @@ class QuestionActivity : AppCompatActivity() {
                 4 -> op4.text = parts[j].substring(1)
             }
         }
+
+        fun updateProgressBar(progressBar: LinearProgressIndicator, currentIndex: Int, total: Int) {
+            val progress = ((currentIndex + 1) * 100) / total
+            progressBar.setProgressCompat(progress, true)
+        }
+
         op1.setOnClickListener {
             if(!isAnswered) {
                 if(op1.text == correct) {
@@ -141,7 +152,8 @@ class QuestionActivity : AppCompatActivity() {
                     finish()
                 } else{
                     i++
-                    val defaultColor = resources.getColor(R.color.purple, theme)
+                    updateProgressBar(progressBar,i,10)
+                    val defaultColor = resources.getColor(R.color.violet, theme)
                     op1.setBackgroundColor(defaultColor)
                     op2.setBackgroundColor(defaultColor)
                     op3.setBackgroundColor(defaultColor)
