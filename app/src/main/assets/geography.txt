@@ -8,3 +8,43 @@ What is the country with the most time zones?1France,0Russia,0USA,0China
 How many capitals does South Africa have?00,01,02,13
 What is the first country to see a new day?0New Zealand,1Kiribati,0Samoa,0Russia
 What is the largest desert in the world?0Sahara,0Gobi,0Arabia,1Antarctica
+What is the most populated city in Europe?0Moscow,0London,0Paris,1Istanbul
+What color is the text on the "give way" signs in New Zealand?0Yellow,0Black,1Red,0White
+Which of the following countries is NOT part of the Schengen Area?0Bulgaria,1Ireland,0Switzerland,0Iceland
+Which of the following countries is NOT on the equator?0Brazil,0Ecuador,0Sao Tome and Principe,1Equatorial Guinea
+What is the only country named after a woman?0El Salvador,1Saint Lucia,0Saint Kitts and Nevis,0Saint Vincent and the Grenadines
+What is the only country to have a modern weapon on its flag?0Sri Lanka,0Saudi Arabia,1Mozambique,0Angola
+Which of these countries drives on the left side of the road?0South Korea,1Japan,0Cambodia,0Philippines
+What is the tallest waterfall in the world?0Victoria Falls,1Angel Falls,0Niagara Falls,0Waihilau Falls
+At the summit of which mountain is the closest point on the Earth's surface to outer space?0K2,0Everest,1Chimborazo,0Mauna Kea
+What is the belt of volcanoes found along the Pacific called?1Ring of Fire,0Pacific Fault Zone,0Oceanic Eruption Belt,0Tectonic Blaze Arc
+What country used to have dodos?0Madagascar,1Mauritius,0Seychelles,0Reuinion
+What is the country with the most islands?0Finland,0Norway,1Sweden,0Indonesia
+What does OPEC stand for?0Oil Production and Energy Council,0Organization for Petroleum Economics and Commerce,1Organization of Petroleum Exporting Countries,0Offshore Petroleum Export Coalition
+What is the easternmost US state?0Maine,0Florida,0Hawaii,1Alaska
+What is only country that regonizes Bitcoin as legal tender?0CAR,1El Salvador,0USA,0Japan
+What is the southernmost territory of the US?1American Samoa,0Guam,0Northern Mariana Island,0US Virgin Islands
+What is the top level domain of Cambodia?1.kh,0.km,0.cm,0.cb
+What is the dialing code of Italy?1+39,0+38,0+36,0+35
+What is the westernmost territory of the UK?0Cayman Islands,0Bermuda,0Turks and Caicos,1Pitcairn Islands
+What is the southernmost inhabited municipality of Japan?1Tokyo,0Okinawa,0Yakushima,0Sapporo
+Which country does France share its longest border with?1Brazil,0Suriname,0Germany,0Spain
+Which country has the largest ethnically Mongol population?0Mongolia,1China,0Russia,0Kyrgyzstan
+Which country is the geographical center of Africa found in?0Central African Republic,0DRC,1Republic of Congo,0Uganda
+What is the longest river in Europe?0Danube,1Volga,0Rhine,0Ebro
+What is the country with the highest life expectancy?1Monaco,0Japan,0Italy,0Spain
+What is the country with the most cars per capita?0USA,0Monaco,1San Marino,0Australia
+Where is the only official Shinto shrine which serves Europe and Africa located?0Madagascar,0Malta,1San Marino,0Seychelles
+Which country has the tallest people?0Belgium,0Denmark,0Sweden,1Netherlands
+Which country are the Yap Islands a part of?0Palau,0Tuvalu,1Micronesia,0Marshall Islands
+What is the 3rd most spoken language in Texas?0German,0Polish,0Hmong,1Vietnamese
+Which country produces almost 40% of the world's supply of nutmeg?0Indonesia,0Brazil,0Madagascar,1Grenada
+Which country produces 60% of the world's footballs?0India,1Pakistan,0China,0Nepal
+Which country exports the most ink?0UK,0Netherlands,1Germany,0Switzerland
+What is the country with the most lakes?1Canada,0Finland,0Russia,0USA
+Which of these countries does NOT use the Euro?0Ireland,1Poland,0Montenegro,0Kosovo
+Where is the southernmost point in continental Asia?0Thailand,0Yemen,0Singapore,1Malaysia
+Where is the southernmost point in continental Europe?1Spain,0Greece,0Italy,0Malta
+What country does Canada share its shorterst non-maritime border with?1Denmark,0USA,0Mexico,0France
+What is the color of the diplomatic passport of the kingdom of Bhutan?0Blue,0Green,0Yellow,1Red
+What is the de facto capital of Switzerland?0Zurich,1Bern,0Lucerne,0Basel
