@@ -135,6 +135,8 @@ class MainActivity : AppCompatActivity() {
             val checkBox = findViewById<CheckBox>(checkbox)
             checkBox.isChecked = false
         }
+        val all = findViewById<CheckBox>(R.id.check_allCheckBox)
+        all.isChecked = false
         questionList.clear()
         isReady = false
     }
