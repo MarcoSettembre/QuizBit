@@ -62,6 +62,7 @@ class QuestionActivity : AppCompatActivity() {
             if(!isAnswered) {
                 if(op1.text == correct) {
                     coins+=100
+                    PrefsManager.saveCoins(coins)
                     op1.setBackgroundColor(Color.parseColor("#00FF00"))
                 } else {
                     op1.setBackgroundColor(Color.parseColor("#FF0000"))
@@ -84,6 +85,7 @@ class QuestionActivity : AppCompatActivity() {
             if(!isAnswered) {
                 if(op2.text == correct) {
                     coins+=100
+                    PrefsManager.saveCoins(coins)
                     op2.setBackgroundColor(Color.parseColor("#00FF00"))
                 } else {
                     op2.setBackgroundColor(Color.parseColor("#FF0000"))
@@ -106,6 +108,7 @@ class QuestionActivity : AppCompatActivity() {
             if(!isAnswered) {
                 if(op3.text == correct) {
                     coins+=100
+                    PrefsManager.saveCoins(coins)
                     op3.setBackgroundColor(Color.parseColor("#00FF00"))
                 } else {
                     op3.setBackgroundColor(Color.parseColor("#FF0000"))
@@ -128,6 +131,7 @@ class QuestionActivity : AppCompatActivity() {
             if(!isAnswered) {
                 if(op4.text == correct) {
                     coins+=100
+                    PrefsManager.saveCoins(coins)
                     op4.setBackgroundColor(Color.parseColor("#00FF00"))
                 } else {
                     op4.setBackgroundColor(Color.parseColor("#FF0000"))

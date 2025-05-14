@@ -18,11 +18,17 @@ import it.p00334000265.quizbit.QuizBit.Companion.name
 
 class MainActivity : AppCompatActivity() {
     private var isReady = false
+
     override fun onCreate(savedInstanceState: Bundle?) {
+        PrefsManager.init(this)
+        coins = PrefsManager.getCoins()
+        name = PrefsManager.getUsername()
+
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) {v, insets ->
+
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
@@ -32,6 +38,9 @@ class MainActivity : AppCompatActivity() {
         val editNameButton = findViewById<ImageView>(R.id.edit_name_button)
         val nameView = findViewById<TextView>(R.id.textView2)
         val coinView = findViewById<TextView>(R.id.textView3)
+
+        nameView.text = "Hi, $name"
+        coinView.text = coins.toString()
 
         editNameButton.setOnClickListener {
             val input = EditText(this)
@@ -46,6 +55,7 @@ class MainActivity : AppCompatActivity() {
                     if (newName.isNotEmpty()) {
                         name = newName
                         nameView.text = "Hi, $name"
+                        PrefsManager.saveUsername(newName)
                     }
                     dialog.dismiss()
                 }
@@ -55,11 +65,6 @@ class MainActivity : AppCompatActivity() {
                 .show()
         }
 
-        if (name.isEmpty()) {
-            name = "Guest"
-        }
-        nameView.text = "Hi, $name"
-        coinView.text = coins.toString()
         val checkAllCheckBox = findViewById<CheckBox>(R.id.check_allCheckBox)
         val science = findViewById<CheckBox>(R.id.scienceCheckBox)
         val coding = findViewById<CheckBox>(R.id.codingCheckBox)
@@ -70,49 +75,44 @@ class MainActivity : AppCompatActivity() {
         val shows = findViewById<CheckBox>(R.id.showsCheckBox)
         val general = findViewById<CheckBox>(R.id.generalCheckBox)
         val allCheckBoxes = listOf(science, coding, geography, history, music, art, shows, general)
+
         singlePlayerButton.setOnClickListener {
-            if(science.isChecked || coding.isChecked || geography.isChecked || history.isChecked || music.isChecked || art.isChecked || shows.isChecked || general.isChecked)
+            if (science.isChecked || coding.isChecked || geography.isChecked || history.isChecked || music.isChecked || art.isChecked || shows.isChecked || general.isChecked)
                 isReady = true
-            if(science.isChecked){
+
+            if (science.isChecked) {
                 val c = assets.open("science.txt").bufferedReader().useLines { it.toList() }
-                for(line in c)
-                    questionList.add(line)
+                for (line in c) questionList.add(line)
             }
-            if(coding.isChecked){
+            if (coding.isChecked) {
                 val c = assets.open("coding.txt").bufferedReader().useLines { it.toList() }
-                for(line in c)
-                    questionList.add(line)
+                for (line in c) questionList.add(line)
             }
-            if(geography.isChecked){
+            if (geography.isChecked) {
                 val c = assets.open("geography.txt").bufferedReader().useLines { it.toList() }
-                for(line in c)
-                    questionList.add(line)
+                for (line in c) questionList.add(line)
             }
-            if(history.isChecked){
+            if (history.isChecked) {
                 val c = assets.open("history.txt").bufferedReader().useLines { it.toList() }
-                for(line in c)
-                    questionList.add(line)
+                for (line in c) questionList.add(line)
             }
-            if(music.isChecked){
+            if (music.isChecked) {
                 val c = assets.open("music.txt").bufferedReader().useLines { it.toList() }
-                for(line in c)
-                    questionList.add(line)
+                for (line in c) questionList.add(line)
             }
-            if(art.isChecked){
+            if (art.isChecked) {
                 val c = assets.open("art.txt").bufferedReader().useLines { it.toList() }
-                for(line in c)
-                    questionList.add(line)
+                for (line in c) questionList.add(line)
             }
-            if(shows.isChecked){
+            if (shows.isChecked) {
                 val c = assets.open("shows.txt").bufferedReader().useLines { it.toList() }
-                for(line in c)
-                    questionList.add(line)
+                for (line in c) questionList.add(line)
             }
-            if(general.isChecked){
+            if (general.isChecked) {
                 val c = assets.open("general.txt").bufferedReader().useLines { it.toList() }
-                for(line in c)
-                    questionList.add(line)
+                for (line in c) questionList.add(line)
             }
+
             if (isReady) {
                 val intent = Intent(this, QuestionActivity::class.java)
                 startActivity(intent)
@@ -120,21 +120,37 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Select at least one category!", Toast.LENGTH_SHORT).show()
             }
         }
-        checkAllCheckBox.setOnCheckedChangeListener { buttonView, isChecked ->
+
+        checkAllCheckBox.setOnCheckedChangeListener { _, isChecked ->
             allCheckBoxes.forEach { it.isChecked = isChecked }
         }
     }
+
     override fun onResume() {
         super.onResume()
         val nameView = findViewById<TextView>(R.id.textView2)
         val coinView = findViewById<TextView>(R.id.textView3)
-        nameView.text = "Hi, " + name
+        name = PrefsManager.getUsername()
+        coins = PrefsManager.getCoins()
+        nameView.text = "Hi, $name"
         coinView.text = coins.toString()
-        val checkboxes = listOf(R.id.scienceCheckBox, R.id.codingCheckBox, R.id.geographyCheckBox, R.id.historyCheckBox, R.id.musicCheckBox, R.id.artCheckBox, R.id.showsCheckBox, R.id.generalCheckBox)
-        for(checkbox in checkboxes){
+
+        val checkboxes = listOf(
+            R.id.scienceCheckBox,
+            R.id.codingCheckBox,
+            R.id.geographyCheckBox,
+            R.id.historyCheckBox,
+            R.id.musicCheckBox,
+            R.id.artCheckBox,
+            R.id.showsCheckBox,
+            R.id.generalCheckBox
+        )
+
+        for (checkbox in checkboxes) {
             val checkBox = findViewById<CheckBox>(checkbox)
             checkBox.isChecked = false
         }
+
         val all = findViewById<CheckBox>(R.id.check_allCheckBox)
         all.isChecked = false
         questionList.clear()
