@@ -97,8 +97,6 @@
             android:textSize="16sp"
             android:textStyle="bold" />
     </LinearLayout>
-
-    <!-- Pulsante per domanda successiva in fondo -->
     <Button
         android:id="@+id/next_button"
         android:layout_width="0dp"

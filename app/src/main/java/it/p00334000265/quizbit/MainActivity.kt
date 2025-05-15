@@ -82,35 +82,43 @@ class MainActivity : AppCompatActivity() {
 
             if (science.isChecked) {
                 val c = assets.open("science.txt").bufferedReader().useLines { it.toList() }
-                for (line in c) questionList.add(line)
+                for (line in c)
+                    questionList.add(line)
             }
             if (coding.isChecked) {
                 val c = assets.open("coding.txt").bufferedReader().useLines { it.toList() }
-                for (line in c) questionList.add(line)
+                for (line in c)
+                    questionList.add(line)
             }
             if (geography.isChecked) {
                 val c = assets.open("geography.txt").bufferedReader().useLines { it.toList() }
-                for (line in c) questionList.add(line)
+                for (line in c)
+                    questionList.add(line)
             }
             if (history.isChecked) {
                 val c = assets.open("history.txt").bufferedReader().useLines { it.toList() }
-                for (line in c) questionList.add(line)
+                for (line in c)
+                    questionList.add(line)
             }
             if (music.isChecked) {
                 val c = assets.open("music.txt").bufferedReader().useLines { it.toList() }
-                for (line in c) questionList.add(line)
+                for (line in c)
+                    questionList.add(line)
             }
             if (art.isChecked) {
                 val c = assets.open("art.txt").bufferedReader().useLines { it.toList() }
-                for (line in c) questionList.add(line)
+                for (line in c)
+                    questionList.add(line)
             }
             if (shows.isChecked) {
                 val c = assets.open("shows.txt").bufferedReader().useLines { it.toList() }
-                for (line in c) questionList.add(line)
+                for (line in c)
+                    questionList.add(line)
             }
             if (general.isChecked) {
                 val c = assets.open("general.txt").bufferedReader().useLines { it.toList() }
-                for (line in c) questionList.add(line)
+                for (line in c)
+                    questionList.add(line)
             }
 
             if (isReady) {
@@ -134,23 +142,11 @@ class MainActivity : AppCompatActivity() {
         coins = PrefsManager.getCoins()
         nameView.text = "Hi, $name"
         coinView.text = coins.toString()
-
-        val checkboxes = listOf(
-            R.id.scienceCheckBox,
-            R.id.codingCheckBox,
-            R.id.geographyCheckBox,
-            R.id.historyCheckBox,
-            R.id.musicCheckBox,
-            R.id.artCheckBox,
-            R.id.showsCheckBox,
-            R.id.generalCheckBox
-        )
-
+        val checkboxes = listOf(R.id.scienceCheckBox, R.id.codingCheckBox, R.id.geographyCheckBox, R.id.historyCheckBox, R.id.musicCheckBox, R.id.artCheckBox, R.id.showsCheckBox, R.id.generalCheckBox)
         for (checkbox in checkboxes) {
             val checkBox = findViewById<CheckBox>(checkbox)
             checkBox.isChecked = false
         }
-
         val all = findViewById<CheckBox>(R.id.check_allCheckBox)
         all.isChecked = false
         questionList.clear()
