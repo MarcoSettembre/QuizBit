@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".QuestionActivity" />
+        <activity android:name=".TrophyActivity" />
     </application>
 
 </manifest>
