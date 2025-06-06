@@ -6,7 +6,7 @@ What element are diamonds made of?0Iron,0Calcium,0Silicon,1Carbon
 What color is the sunset on Mars?1Blue,0Yellow,0Green,0Red
 How long is a galactic year?0200 million years,1230 million years,0180 million years,0250 million years
 What planet is closest in size to Earth?0Mercury,0Mars,1Venus,0Moon
-What is the pH of water?06,08,17,02
+What is the maximum value for pH?010,015,114,020
 What is the largest organ in the human body?0Heart,0Liver,0Brain,1Skin
 What is the chemical symbol for water?0O2,1H2O,0CO2,0HO2
 Which planet is known as the Red Planet?0Venus,1Mars,0Jupiter,0Mercury
@@ -25,7 +25,7 @@ Which blood cells help fight infections?0Red Blood Cells,0Platelets,1White Blood
 Which vitamin is mainly produced when the human body is exposed to sunlight?0Vitamin A,0Vitamin C,1Vitamin D,0Vitamin K
 What is the boiling point of water at sea level?050°C,1100°C,0150°C,0200°C
 Which organ is responsible for filtering blood?0Brain,1Kidney,0Lungs,0Heart
-What do bees collect from flowers?0Nectar,0Water,0Pollean,1Both A and C
+What do bees collect from flowers?0Nectar,0Water,0Pollen,1Both A and C
 What is the hardest natural substance on Earth?0Gold,1Diamond,0Iron,0Quartz
 Which part of the plant conducts photosynthesis?0Root,1Leaf,0Stem,0Flower
 Which gas is most abundant in Earth's atmosphere?0Oxygen,1Nitrogen,0Carbon Dioxide,0Hydrogen
@@ -44,7 +44,7 @@ What is the main function of red blood cells?0Fight diseases,1Carry oxygen,0Dige
 What force pulls objects toward Earth?0Magnetism,0Friction,1Gravity,0Pressure
 What is the pH value of pure water?00,17,014,05
 What part of the cell contains genetic material?0Cytoplasm,0Cell Wall,0Membrane,1Nucleus
-Which scientist is known as the father of modern physics?1Newton,0Einstein,0Bohr,0Tesla
+Which scientist is known as the father of classical physics?1Newton,0Einstein,0Bohr,0Tesla
 What gas do plants absorb during photosynthesis?0Oxygen,1Carbon Dioxide,0Nitrogen,0Hydrogen
 Which of these is a renewable energy source?0Coal,0Oil,1Solar,0Natural Gas
 Which part of the human brain controls memory?0Cerebellum,0Medulla,1Hippocampus,0Thalamus

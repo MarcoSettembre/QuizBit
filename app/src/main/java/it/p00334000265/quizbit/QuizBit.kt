@@ -5,5 +5,6 @@ class QuizBit: Application(){
         var questionList = mutableListOf<String>()
         var coins: Int = 0
         var name: String = ""
+        var hardMode: Boolean = false
     }
 }

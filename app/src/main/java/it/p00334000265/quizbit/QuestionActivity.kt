@@ -9,12 +9,14 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import android.widget.Toast
 import android.graphics.Color
+import android.os.CountDownTimer
 import com.google.android.material.progressindicator.LinearProgressIndicator
 import android.util.Log
 import android.widget.ProgressBar
 import androidx.core.view.WindowInsetsCompat
 import it.p00334000265.quizbit.QuizBit.Companion.questionList
 import it.p00334000265.quizbit.QuizBit.Companion.coins
+import it.p00334000265.quizbit.QuizBit.Companion.hardMode
 
 class QuestionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,6 +33,7 @@ class QuestionActivity : AppCompatActivity() {
         questionList.shuffle()
         val progressBar = findViewById<LinearProgressIndicator>(R.id.progressBar)
         val questionText = findViewById<TextView>(R.id.question_text)
+        val timerText = findViewById<TextView>(R.id.timer_text)
         val op1 = findViewById<Button>(R.id.option1)
         val op2 = findViewById<Button>(R.id.option2)
         val op3 = findViewById<Button>(R.id.option3)
@@ -40,7 +43,7 @@ class QuestionActivity : AppCompatActivity() {
         var i = 0
         var parts: List<String>
         var correct = ""
-        progressBar.progress= 10
+        progressBar.progress = 10
         parts = questionList[i].split("?", ",")
         questionText.text = parts[0].toString() + "?"
         for (j in 1..4) {
@@ -58,17 +61,38 @@ class QuestionActivity : AppCompatActivity() {
             val progress = ((currentIndex + 1) * 100) / total
             progressBar.setProgressCompat(progress, true)
         }
+        val timer = object: CountDownTimer(15000, 1000) {
+            override fun onTick(millisUntilFinished: Long) {
+                timerText.text = "Seconds remaining: " + ((millisUntilFinished / 1000)+1).toString()
+            }
 
+            override fun onFinish() {
+                timerText.text = "Time's up! You failed to answer the question"
+                isAnswered = true
+                for (j in 1..4) {
+                    if (parts[j].substring(1) == correct) {
+                        when (j) {
+                            1 -> op1.setBackgroundColor(Color.parseColor("#00FF00"))
+                            2 -> op2.setBackgroundColor(Color.parseColor("#00FF00"))
+                            3 -> op3.setBackgroundColor(Color.parseColor("#00FF00"))
+                            4 -> op4.setBackgroundColor(Color.parseColor("#00FF00"))
+                        }
+                        break
+                    }
+                }
+            }
+        }
         op1.setOnClickListener {
-            if(!isAnswered) {
-                if(op1.text == correct) {
-                    coins+=100
+            if (!isAnswered) {
+                timer.cancel()
+                if (op1.text == correct) {
+                    coins += 100
                     op1.setBackgroundColor(Color.parseColor("#00FF00"))
                 } else {
                     op1.setBackgroundColor(Color.parseColor("#FF0000"))
-                    for(j in 1..4){
-                        if(parts[j].substring(1)==correct){
-                            when(j){
+                    for (j in 1..4) {
+                        if (parts[j].substring(1) == correct) {
+                            when (j) {
                                 1 -> op1.setBackgroundColor(Color.parseColor("#00FF00"))
                                 2 -> op2.setBackgroundColor(Color.parseColor("#00FF00"))
                                 3 -> op3.setBackgroundColor(Color.parseColor("#00FF00"))
@@ -82,15 +106,16 @@ class QuestionActivity : AppCompatActivity() {
             }
         }
         op2.setOnClickListener {
-            if(!isAnswered) {
-                if(op2.text == correct) {
-                    coins+=100
+            if (!isAnswered) {
+                timer.cancel()
+                if (op2.text == correct) {
+                    coins += 100
                     op2.setBackgroundColor(Color.parseColor("#00FF00"))
                 } else {
                     op2.setBackgroundColor(Color.parseColor("#FF0000"))
-                    for(j in 1..4){
-                        if(parts[j].substring(1)==correct){
-                            when(j){
+                    for (j in 1..4) {
+                        if (parts[j].substring(1) == correct) {
+                            when (j) {
                                 1 -> op1.setBackgroundColor(Color.parseColor("#00FF00"))
                                 2 -> op2.setBackgroundColor(Color.parseColor("#00FF00"))
                                 3 -> op3.setBackgroundColor(Color.parseColor("#00FF00"))
@@ -104,15 +129,16 @@ class QuestionActivity : AppCompatActivity() {
             }
         }
         op3.setOnClickListener {
-            if(!isAnswered) {
-                if(op3.text == correct) {
-                    coins+=100
+            if (!isAnswered) {
+                timer.cancel()
+                if (op3.text == correct) {
+                    coins += 100
                     op3.setBackgroundColor(Color.parseColor("#00FF00"))
                 } else {
                     op3.setBackgroundColor(Color.parseColor("#FF0000"))
-                    for(j in 1..4){
-                        if(parts[j].substring(1)==correct){
-                            when(j){
+                    for (j in 1..4) {
+                        if (parts[j].substring(1) == correct) {
+                            when (j) {
                                 1 -> op1.setBackgroundColor(Color.parseColor("#00FF00"))
                                 2 -> op2.setBackgroundColor(Color.parseColor("#00FF00"))
                                 3 -> op3.setBackgroundColor(Color.parseColor("#00FF00"))
@@ -126,15 +152,16 @@ class QuestionActivity : AppCompatActivity() {
             }
         }
         op4.setOnClickListener {
-            if(!isAnswered) {
-                if(op4.text == correct) {
-                    coins+=100
+            if (!isAnswered) {
+                timer.cancel()
+                if (op4.text == correct) {
+                    coins += 100
                     op4.setBackgroundColor(Color.parseColor("#00FF00"))
                 } else {
                     op4.setBackgroundColor(Color.parseColor("#FF0000"))
-                    for(j in 1..4){
-                        if(parts[j].substring(1)==correct){
-                            when(j){
+                    for (j in 1..4) {
+                        if (parts[j].substring(1) == correct) {
+                            when (j) {
                                 1 -> op1.setBackgroundColor(Color.parseColor("#00FF00"))
                                 2 -> op2.setBackgroundColor(Color.parseColor("#00FF00"))
                                 3 -> op3.setBackgroundColor(Color.parseColor("#00FF00"))
@@ -147,23 +174,30 @@ class QuestionActivity : AppCompatActivity() {
                 isAnswered = true
             }
         }
-        nextButton.setOnClickListener{
-            if(isAnswered){
-                if(i==9){
+        if (hardMode) {
+            timerText.visibility = TextView.VISIBLE
+            timer.start()
+        } else {
+            timerText.visibility = TextView.INVISIBLE
+            timer.cancel()
+        }
+        nextButton.setOnClickListener {
+            if (isAnswered) {
+                if (i == 9) {
                     val intent = Intent(this, TrophyActivity::class.java)
                     startActivity(intent)
                     finish()
-                } else{
+                } else {
                     i++
-                    updateProgressBar(progressBar,i,10)
+                    updateProgressBar(progressBar, i, 10)
                     val defaultColor = resources.getColor(R.color.violet, theme)
                     op1.setBackgroundColor(defaultColor)
                     op2.setBackgroundColor(defaultColor)
                     op3.setBackgroundColor(defaultColor)
                     op4.setBackgroundColor(defaultColor)
-                    if(i==9)
+                    if (i == 9)
                         nextButton.text = "Finish"
-                    isAnswered=false
+                    isAnswered = false
                     parts = questionList[i].split("?", ",")
                     questionText.text = parts[0].toString() + "?"
                     for (j in 1..4) {
@@ -175,6 +209,9 @@ class QuestionActivity : AppCompatActivity() {
                             3 -> op3.text = parts[j].substring(1)
                             4 -> op4.text = parts[j].substring(1)
                         }
+                    }
+                    if (hardMode) {
+                        timer.start()
                     }
                 }
             } else {

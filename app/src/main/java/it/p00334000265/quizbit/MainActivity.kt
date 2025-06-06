@@ -15,6 +15,7 @@ import android.widget.Toast
 import it.p00334000265.quizbit.QuizBit.Companion.questionList
 import it.p00334000265.quizbit.QuizBit.Companion.coins
 import it.p00334000265.quizbit.QuizBit.Companion.name
+import it.p00334000265.quizbit.QuizBit.Companion.hardMode
 
 class MainActivity : AppCompatActivity() {
     private var isReady = false
@@ -122,8 +123,26 @@ class MainActivity : AppCompatActivity() {
             }
 
             if (isReady) {
-                val intent = Intent(this, QuestionActivity::class.java)
-                startActivity(intent)
+                AlertDialog.Builder(this)
+                    .setTitle("Select the difficulty level")
+                    .setMessage("Hard mode will give you 15 seconds to answer each question")
+                    .setNegativeButton("Hard") { dialog, _ ->
+                        hardMode = true
+                        dialog.dismiss()
+                        val intent = Intent(this, QuestionActivity::class.java)
+                        startActivity(intent)
+                    }
+                    .setPositiveButton("Easy") { dialog, _ ->
+                        hardMode = false
+                        dialog.dismiss()
+                        val intent = Intent(this, QuestionActivity::class.java)
+                        startActivity(intent)
+                    }
+                    .setNeutralButton("Dismiss") { dialog, _ ->
+                        dialog.dismiss()
+                    }
+                    .show()
+
             } else {
                 Toast.makeText(this, "Select at least one category!", Toast.LENGTH_SHORT).show()
             }
