@@ -5,7 +5,7 @@
     android:id="@+id/trophy"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/navy_background">
+    android:background="@drawable/main_background_color">
 
 
     <LinearLayout
@@ -25,21 +25,22 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
             android:textColor="@color/white"
             android:textSize="18dp"
-            android:textStyle="bold"
-            android:gravity="center"
-            android:text="TextView" />
+            android:textStyle="bold" />
 
 
     </LinearLayout>
+
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Home"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
